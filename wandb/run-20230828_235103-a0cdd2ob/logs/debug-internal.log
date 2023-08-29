@@ -4042,3 +4042,983 @@
 2023-08-29 00:39:37,842 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
 2023-08-29 00:39:37,842 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
 2023-08-29 00:39:38,148 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:39:43,149 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:39:48,149 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:39:52,842 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:39:52,843 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:39:54,145 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:39:59,145 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:40:04,563 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:40:04,856 DEBUG   SenderThread:4132452 [sender.py:send():369] send: stats
+2023-08-29 00:40:04,857 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:40:05,319 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:40:05,321 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:40:05,323 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:40:05,325 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:40:05,327 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:40:05,329 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:40:05,329 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:40:05,330 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:40:05,331 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:40:05,336 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:40:05,337 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:40:05,337 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:40:05,338 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:40:05,339 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:40:05,339 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:40:05,341 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:40:05,341 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:40:05,342 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:40:05,343 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:40:05,344 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:40:05,344 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:40:05,345 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:40:05,345 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:40:05,345 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:40:05,346 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:40:05,346 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:40:05,347 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:40:05,348 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:40:05,565 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:40:06,565 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:40:07,842 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:40:07,843 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:40:08,568 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:40:10,147 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:40:15,148 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:40:20,149 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:40:22,842 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:40:22,843 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:40:26,072 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:40:31,074 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:40:34,858 DEBUG   SenderThread:4132452 [sender.py:send():369] send: stats
+2023-08-29 00:40:36,191 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:40:36,425 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:40:36,426 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:40:36,428 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:40:36,429 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:40:36,429 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:40:36,431 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:40:36,431 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:40:36,433 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:40:36,436 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:40:36,440 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:40:36,440 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:40:36,441 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:40:36,455 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:40:36,455 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:40:36,456 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:40:36,457 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:40:36,458 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:40:36,458 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:40:36,460 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:40:36,460 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:40:36,461 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:40:36,462 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:40:36,463 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:40:36,463 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:40:36,464 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:40:36,465 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:40:36,466 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:40:36,467 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:40:36,597 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:40:36,598 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:40:37,843 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:40:37,843 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:40:38,599 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:40:42,052 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:40:47,053 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:40:52,054 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:40:52,843 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:40:52,843 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:40:57,113 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:41:02,114 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:41:04,860 DEBUG   SenderThread:4132452 [sender.py:send():369] send: stats
+2023-08-29 00:41:06,622 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:41:07,203 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:41:07,443 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:41:07,445 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:41:07,447 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:41:07,449 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:41:07,449 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:41:07,451 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:41:07,452 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:41:07,454 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:41:07,456 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:41:07,460 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:41:07,460 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:41:07,461 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:41:07,468 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:41:07,468 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:41:07,469 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:41:07,470 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:41:07,471 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:41:07,471 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:41:07,473 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:41:07,473 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:41:07,473 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:41:07,474 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:41:07,474 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:41:07,474 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:41:07,475 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:41:07,476 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:41:07,476 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:41:07,477 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:41:07,625 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:41:07,874 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:41:07,875 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:41:08,626 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:41:10,628 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:41:12,361 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:41:17,362 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:41:22,363 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:41:22,872 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:41:22,872 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:41:28,155 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:41:33,156 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:41:34,863 DEBUG   SenderThread:4132452 [sender.py:send():369] send: stats
+2023-08-29 00:41:37,872 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:41:37,872 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:41:38,166 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:41:38,498 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:41:38,499 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:41:38,503 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:41:38,503 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:41:38,503 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:41:38,505 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:41:38,509 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:41:38,510 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:41:38,512 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:41:38,512 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:41:38,515 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:41:38,515 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:41:38,530 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:41:38,531 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:41:38,531 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:41:38,533 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:41:38,533 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:41:38,534 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:41:38,535 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:41:38,536 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:41:38,536 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:41:38,538 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:41:38,538 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:41:38,538 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:41:38,539 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:41:38,540 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:41:38,540 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:41:38,541 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:41:38,660 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:41:38,660 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:41:40,662 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:41:43,326 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:41:48,327 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:41:52,873 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:41:52,873 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:41:54,077 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:41:59,077 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:42:04,079 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:42:04,865 DEBUG   SenderThread:4132452 [sender.py:send():369] send: stats
+2023-08-29 00:42:07,873 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:42:07,873 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:42:08,693 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:42:09,152 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:42:09,467 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:42:09,469 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:42:09,471 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:42:09,473 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:42:09,473 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:42:09,477 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:42:09,478 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:42:09,479 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:42:09,481 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:42:09,484 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:42:09,485 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:42:09,485 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:42:09,488 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:42:09,488 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:42:09,488 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:42:09,490 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:42:09,490 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:42:09,491 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:42:09,492 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:42:09,492 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:42:09,493 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:42:09,494 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:42:09,494 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:42:09,495 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:42:09,496 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:42:09,496 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:42:09,496 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:42:09,497 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:42:09,694 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:42:10,695 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:42:12,697 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:42:14,332 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:42:19,333 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:42:22,873 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:42:22,874 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:42:25,179 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:42:30,180 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:42:34,866 DEBUG   SenderThread:4132452 [sender.py:send():369] send: stats
+2023-08-29 00:42:35,868 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:42:37,909 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:42:37,910 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:42:40,432 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:42:40,434 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:42:40,435 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:42:40,438 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:42:40,438 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:42:40,441 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:42:40,442 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:42:40,443 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:42:40,446 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:42:40,449 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:42:40,450 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:42:40,450 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:42:40,459 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:42:40,460 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:42:40,460 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:42:40,461 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:42:40,462 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:42:40,462 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:42:40,464 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:42:40,464 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:42:40,464 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:42:40,466 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:42:40,466 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:42:40,467 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:42:40,468 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:42:40,468 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:42:40,469 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:42:40,469 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:42:40,718 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:42:40,718 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:42:41,235 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:42:42,719 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:42:46,236 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:42:51,237 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:42:52,908 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:42:52,908 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:42:57,168 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:43:02,169 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:43:04,868 DEBUG   SenderThread:4132452 [sender.py:send():369] send: stats
+2023-08-29 00:43:07,869 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:43:07,908 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:43:07,908 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:43:10,735 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:43:11,475 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:43:11,476 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:43:11,478 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:43:11,478 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:43:11,479 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:43:11,480 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:43:11,481 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:43:11,485 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:43:11,487 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:43:11,492 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:43:11,493 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:43:11,493 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:43:11,495 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:43:11,496 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:43:11,496 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:43:11,497 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:43:11,498 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:43:11,498 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:43:11,499 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:43:11,499 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:43:11,499 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:43:11,500 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:43:11,501 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:43:11,501 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:43:11,502 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:43:11,502 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:43:11,503 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:43:11,504 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:43:11,736 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:43:12,737 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:43:13,301 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:43:14,739 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:43:18,302 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:43:22,908 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:43:22,909 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:43:24,211 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:43:29,212 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:43:34,213 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:43:34,869 DEBUG   SenderThread:4132452 [sender.py:send():369] send: stats
+2023-08-29 00:43:37,908 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:43:37,908 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:43:40,043 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:43:40,758 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:43:42,406 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:43:42,408 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:43:42,410 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:43:42,411 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:43:42,414 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:43:42,415 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:43:42,417 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:43:42,422 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:43:42,424 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:43:42,425 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:43:42,426 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:43:42,426 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:43:42,432 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:43:42,433 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:43:42,433 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:43:42,435 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:43:42,435 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:43:42,436 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:43:42,437 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:43:42,437 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:43:42,437 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:43:42,438 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:43:42,438 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:43:42,438 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:43:42,439 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:43:42,439 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:43:42,440 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:43:42,441 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:43:42,760 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:43:44,762 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:43:45,300 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:43:50,301 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:43:52,908 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:43:52,909 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:43:56,149 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:44:01,149 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:44:04,905 DEBUG   SenderThread:4132452 [sender.py:send():369] send: stats
+2023-08-29 00:44:06,907 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:44:07,909 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:44:07,909 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:44:12,024 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:44:12,783 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:44:13,386 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:44:13,388 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:44:13,391 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:44:13,391 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:44:13,393 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:44:13,394 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:44:13,396 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:44:13,399 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:44:13,401 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:44:13,404 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:44:13,404 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:44:13,405 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:44:13,409 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:44:13,409 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:44:13,410 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:44:13,411 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:44:13,411 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:44:13,412 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:44:13,413 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:44:13,414 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:44:13,414 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:44:13,415 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:44:13,416 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:44:13,416 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:44:13,417 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:44:13,417 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:44:13,418 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:44:13,418 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:44:13,783 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:44:14,784 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:44:16,786 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:44:17,238 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:44:22,239 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:44:22,910 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:44:22,911 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:44:28,149 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:44:33,150 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:44:34,872 DEBUG   SenderThread:4132452 [sender.py:send():369] send: stats
+2023-08-29 00:44:37,910 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:44:37,910 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:44:38,180 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:44:42,804 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:44:43,971 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:44:44,535 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:44:44,537 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:44:44,539 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:44:44,541 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:44:44,542 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:44:44,543 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:44:44,546 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:44:44,547 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:44:44,549 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:44:44,551 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:44:44,552 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:44:44,553 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:44:44,562 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:44:44,562 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:44:44,563 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:44:44,564 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:44:44,565 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:44:44,565 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:44:44,566 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:44:44,567 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:44:44,567 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:44:44,568 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:44:44,568 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:44:44,569 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:44:44,570 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:44:44,570 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:44:44,571 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:44:44,573 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:44:44,805 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:44:44,805 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:44:46,807 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:44:49,370 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:44:52,910 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:44:52,911 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:44:55,178 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:45:00,179 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:45:04,875 DEBUG   SenderThread:4132452 [sender.py:send():369] send: stats
+2023-08-29 00:45:05,876 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:45:07,910 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:45:07,911 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:45:11,191 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:45:14,823 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:45:15,508 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:45:15,510 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:45:15,512 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:45:15,513 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:45:15,516 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:45:15,518 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:45:15,519 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:45:15,521 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:45:15,521 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:45:15,526 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:45:15,527 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:45:15,527 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:45:15,568 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:45:15,569 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:45:15,569 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:45:15,571 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:45:15,572 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:45:15,572 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:45:15,573 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:45:15,574 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:45:15,574 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:45:15,575 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:45:15,575 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:45:15,575 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:45:15,576 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:45:15,576 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:45:15,577 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:45:15,578 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:45:15,823 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:45:16,396 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:45:16,824 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:45:18,825 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:45:21,397 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:45:22,910 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:45:22,911 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:45:27,177 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:45:32,178 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:45:34,877 DEBUG   SenderThread:4132452 [sender.py:send():369] send: stats
+2023-08-29 00:45:37,879 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:45:37,910 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:45:37,911 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:45:43,153 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:45:44,839 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:45:46,560 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:45:46,562 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:45:46,565 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:45:46,565 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:45:46,566 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:45:46,567 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:45:46,571 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:45:46,573 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:45:46,573 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:45:46,575 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:45:46,576 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:45:46,579 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:45:46,581 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:45:46,582 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:45:46,582 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:45:46,591 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:45:46,591 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:45:46,592 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:45:46,593 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:45:46,593 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:45:46,593 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:45:46,595 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:45:46,595 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:45:46,595 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:45:46,596 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:45:46,597 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:45:46,598 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:45:46,599 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:45:46,840 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:45:48,402 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:45:48,841 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:45:52,911 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:45:52,912 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:45:54,164 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:45:59,165 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:46:04,166 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:46:04,878 DEBUG   SenderThread:4132452 [sender.py:send():369] send: stats
+2023-08-29 00:46:07,913 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:46:07,913 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:46:10,131 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:46:15,132 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:46:16,855 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:46:17,826 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:46:17,829 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:46:17,831 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:46:17,833 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:46:17,833 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:46:17,835 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:46:17,837 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:46:17,838 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:46:17,841 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:46:17,844 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:46:17,844 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:46:17,844 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:46:17,853 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:46:17,854 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:46:17,854 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:46:17,855 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:46:17,855 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:46:17,855 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:46:17,856 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:46:17,857 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:46:17,857 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:46:17,858 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:46:17,858 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:46:17,859 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:46:17,859 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:46:17,860 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:46:17,860 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:46:17,861 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:46:17,862 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:46:18,859 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:46:18,859 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:46:20,780 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:46:20,860 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:46:22,913 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:46:22,914 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:46:26,203 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:46:31,204 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:46:34,880 DEBUG   SenderThread:4132452 [sender.py:send():369] send: stats
+2023-08-29 00:46:36,881 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:46:37,913 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:46:37,913 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:46:42,199 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:46:47,461 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:46:48,880 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:46:49,130 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:46:49,132 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:46:49,135 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:46:49,136 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:46:49,137 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:46:49,139 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:46:49,140 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:46:49,143 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:46:49,146 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:46:49,152 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:46:49,153 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:46:49,153 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:46:49,156 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:46:49,157 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:46:49,157 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:46:49,159 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:46:49,160 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:46:49,160 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:46:49,161 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:46:49,162 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:46:49,162 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:46:49,162 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:46:49,163 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:46:49,163 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:46:49,164 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:46:49,164 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:46:49,165 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:46:49,165 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:46:49,881 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:46:50,881 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:46:52,913 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:46:52,914 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:46:53,155 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:46:58,156 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:47:03,157 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:47:04,881 DEBUG   SenderThread:4132452 [sender.py:send():369] send: stats
+2023-08-29 00:47:07,913 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:47:07,914 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:47:08,186 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:47:13,187 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:47:18,730 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:47:18,903 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:47:20,331 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:47:20,333 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:47:20,336 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:47:20,336 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:47:20,336 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:47:20,338 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:47:20,341 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:47:20,342 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:47:20,343 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:47:20,343 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:47:20,347 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:47:20,347 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:47:20,357 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:47:20,358 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:47:20,358 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:47:20,361 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:47:20,361 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:47:20,361 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:47:20,372 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:47:20,372 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:47:20,372 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:47:20,374 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:47:20,374 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:47:20,374 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:47:20,376 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:47:20,376 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:47:20,377 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:47:20,378 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:47:20,905 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:47:20,905 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:47:22,906 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:47:22,913 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:47:22,914 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:47:24,203 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:47:29,204 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:47:34,205 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:47:34,883 DEBUG   SenderThread:4132452 [sender.py:send():369] send: stats
+2023-08-29 00:47:37,913 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:47:37,914 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:47:40,175 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:47:45,176 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:47:50,853 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:47:50,929 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:47:51,211 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:47:51,213 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:47:51,215 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:47:51,217 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:47:51,217 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:47:51,218 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:47:51,220 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:47:51,222 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:47:51,222 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:47:51,223 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:47:51,224 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:47:51,227 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:47:51,228 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:47:51,229 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:47:51,229 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:47:51,230 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:47:51,230 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:47:51,230 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:47:51,231 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:47:51,232 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:47:51,232 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:47:51,233 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:47:51,233 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:47:51,233 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:47:51,234 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:47:51,234 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:47:51,235 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:47:51,236 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:47:51,929 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:47:52,914 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:47:52,914 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:47:52,930 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:47:56,183 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:48:01,185 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:48:04,886 DEBUG   SenderThread:4132452 [sender.py:send():369] send: stats
+2023-08-29 00:48:06,887 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:48:07,913 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:48:07,914 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:48:12,146 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:48:17,147 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:48:20,949 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:48:22,421 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:48:22,424 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:48:22,426 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:48:22,427 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:48:22,427 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:48:22,429 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:48:22,433 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:48:22,434 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:48:22,435 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:48:22,435 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:48:22,438 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:48:22,441 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:48:22,442 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:48:22,449 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:48:22,450 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:48:22,450 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:48:22,466 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:48:22,466 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:48:22,467 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:48:22,468 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:48:22,468 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:48:22,469 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:48:22,470 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:48:22,470 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:48:22,470 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:48:22,471 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:48:22,471 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:48:22,472 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:48:22,473 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:48:22,915 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:48:22,916 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:48:22,950 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:48:22,951 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:48:24,952 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:48:28,289 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:48:33,290 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:48:34,888 DEBUG   SenderThread:4132452 [sender.py:send():369] send: stats
+2023-08-29 00:48:37,914 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:48:37,915 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:48:39,222 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:48:44,223 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:48:49,224 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:48:52,914 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:48:52,915 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:48:52,968 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:48:53,546 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:48:53,548 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:48:53,551 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:48:53,551 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:48:53,553 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:48:53,553 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:48:53,556 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:48:53,559 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:48:53,561 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:48:53,564 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:48:53,564 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:48:53,565 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:48:53,584 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:48:53,584 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:48:53,585 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:48:53,658 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:48:53,659 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:48:53,659 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:48:53,668 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:48:53,669 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:48:53,669 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:48:53,671 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:48:53,671 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:48:53,672 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:48:53,673 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:48:53,673 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:48:53,674 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:48:53,675 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:48:53,970 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:48:54,368 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:48:54,970 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:48:59,370 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:49:04,371 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:49:04,889 DEBUG   SenderThread:4132452 [sender.py:send():369] send: stats
+2023-08-29 00:49:07,915 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:49:07,916 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:49:10,176 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:49:15,177 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:49:20,178 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:49:22,915 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:49:22,916 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:49:22,988 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:49:24,613 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:49:24,615 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:49:24,617 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:49:24,618 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:49:24,618 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:49:24,620 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:49:24,622 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:49:24,624 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:49:24,625 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:49:24,625 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:49:24,630 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:49:24,630 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:49:24,646 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:49:24,647 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:49:24,647 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:49:24,648 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:49:24,649 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:49:24,649 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:49:24,650 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:49:24,651 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:49:24,651 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:49:24,653 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:49:24,653 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:49:24,653 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:49:24,655 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:49:24,655 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:49:24,656 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:49:24,658 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:49:24,989 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:49:24,990 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:49:25,497 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:49:26,990 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:49:30,498 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:49:34,892 DEBUG   SenderThread:4132452 [sender.py:send():369] send: stats
+2023-08-29 00:49:35,893 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:49:37,915 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:49:37,916 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:49:41,153 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:49:46,154 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:49:51,156 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:49:52,918 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:49:52,919 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:49:55,005 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:49:55,711 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:49:55,713 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:49:55,715 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:49:55,717 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:49:55,717 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:49:55,719 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:49:55,720 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:49:55,722 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:49:55,725 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:49:55,728 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:49:55,729 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:49:55,730 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:49:55,760 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:49:55,761 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:49:55,761 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:49:55,763 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:49:55,763 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:49:55,764 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:49:55,765 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:49:55,765 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:49:55,766 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:49:55,767 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:49:55,767 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:49:55,767 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:49:55,768 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:49:55,769 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:49:55,770 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:49:55,771 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:49:56,006 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:49:56,566 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:49:57,007 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:49:59,008 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:50:01,567 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:50:04,895 DEBUG   SenderThread:4132452 [sender.py:send():369] send: stats
+2023-08-29 00:50:06,897 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:50:07,919 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:50:07,919 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:50:12,145 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:50:17,146 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:50:22,147 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:50:22,919 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:50:22,919 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:50:25,022 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:50:26,666 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:50:26,668 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:50:26,670 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:50:26,672 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:50:26,675 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:50:26,676 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:50:26,677 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:50:26,678 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:50:26,679 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:50:26,683 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:50:26,684 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:50:26,684 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:50:26,685 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:50:26,686 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:50:26,686 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:50:26,687 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:50:26,688 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:50:26,688 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:50:26,689 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:50:26,690 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:50:26,690 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:50:26,691 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:50:26,691 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:50:26,692 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:50:26,693 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:50:26,693 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:50:26,694 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:50:26,695 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:50:27,024 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:50:27,024 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:50:27,514 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:50:29,025 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:50:32,516 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:50:34,896 DEBUG   SenderThread:4132452 [sender.py:send():369] send: stats
+2023-08-29 00:50:37,898 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:50:37,919 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:50:37,919 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:50:43,190 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:50:48,191 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:50:52,919 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:50:52,920 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:50:53,208 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:50:57,045 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:50:57,687 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:50:57,689 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:50:57,691 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:50:57,693 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:50:57,693 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:50:57,695 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:50:57,696 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:50:57,698 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:50:57,701 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:50:57,704 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:50:57,705 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:50:57,705 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:50:57,749 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:50:57,750 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:50:57,750 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:50:57,752 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:50:57,752 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:50:57,752 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:50:57,753 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:50:57,753 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:50:57,754 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:50:57,754 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:50:57,755 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:50:57,755 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:50:57,756 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:50:57,756 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:50:57,757 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:50:57,758 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:50:58,046 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:50:58,565 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:50:59,046 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:51:03,566 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:51:04,933 DEBUG   SenderThread:4132452 [sender.py:send():369] send: stats
+2023-08-29 00:51:07,919 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:51:07,920 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:51:09,148 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:51:14,149 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:51:19,150 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:51:22,919 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-29 00:51:22,920 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: stop_status
+2023-08-29 00:51:24,287 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:51:27,066 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:51:28,728 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:51:28,730 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:51:28,731 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:51:28,733 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:51:28,735 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:51:28,737 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:51:28,738 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:51:28,738 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:51:28,740 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-29 00:51:28,743 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:51:28,744 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:51:28,744 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:51:28,745 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:51:28,746 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:51:28,746 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:51:28,748 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:51:28,748 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:51:28,748 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:51:28,750 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:51:28,750 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:51:28,750 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:51:28,752 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:51:28,752 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:51:28,752 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:51:28,754 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:51:28,754 DEBUG   SenderThread:4132452 [sender.py:send():369] send: history
+2023-08-29 00:51:28,755 DEBUG   SenderThread:4132452 [sender.py:send_request():396] send_request: summary_record
+2023-08-29 00:51:28,756 INFO    SenderThread:4132452 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-29 00:51:29,068 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/wandb-summary.json
+2023-08-29 00:51:29,068 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
+2023-08-29 00:51:29,659 DEBUG   HandlerThread:4132452 [handler.py:handle_request():144] handle_request: status_report
+2023-08-29 00:51:31,074 INFO    Thread-12 :4132452 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_235103-a0cdd2ob/files/output.log
