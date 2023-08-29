@@ -1,0 +1,171 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    code_path: code/main.py
+    python_version: 3.7.16
+    cli_version: 0.15.5
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: true
+    start_time: 1693235004.303676
+    t:
+      1:
+      - 1
+      - 5
+      - 41
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 41
+      - 53
+      - 55
+      3:
+      - 13
+      - 23
+      4: 3.7.16
+      5: 0.15.5
+      8:
+      - 2
+      - 5
+dataset:
+  desc: null
+  value: cifar100
+root:
+  desc: null
+  value: ../data
+arch:
+  desc: null
+  value: resnet_proto
+num_classes:
+  desc: null
+  value: 100
+imbanlance_rate:
+  desc: null
+  value: 0.01
+lr:
+  desc: null
+  value: 0.01
+epochs:
+  desc: null
+  value: 200
+batch_size:
+  desc: null
+  value: 64
+momentum:
+  desc: null
+  value: 0.9
+weight_decay:
+  desc: null
+  value: 0.005
+dir_train_txt:
+  desc: null
+  value: ../data/imagenet/ImageNet_LT_train.txt
+dir_test_txt:
+  desc: null
+  value: ../data/imagenet/ImageNet_LT_test.txt
+resample_weighting:
+  desc: null
+  value: 0.2
+label_weighting:
+  desc: null
+  value: 1.0
+contrast_weight:
+  desc: null
+  value: 10
+alpha:
+  desc: null
+  value: 50
+beta:
+  desc: null
+  value: 2
+randaug_m:
+  desc: null
+  value: 10
+randaug_n:
+  desc: null
+  value: 2
+use_proto:
+  desc: null
+  value: true
+method:
+  desc: null
+  value: proto
+loss:
+  desc: null
+  value: logit
+loss2:
+  desc: null
+  value: proto
+aug_step:
+  desc: null
+  value: '3'
+coeff_1:
+  desc: null
+  value: 1.0
+coeff_2:
+  desc: null
+  value: 0.8
+fix:
+  desc: null
+  value: 'True'
+cum:
+  desc: null
+  value: Y
+mix_coeff:
+  desc: null
+  value: 1
+cut_coeff:
+  desc: null
+  value: 1
+project:
+  desc: null
+  value: true
+mixed:
+  desc: null
+  value: both
+weight_sample:
+  desc: null
+  value: true
+feat_dim:
+  desc: null
+  value: 64
+hidden_dim:
+  desc: null
+  value: 512
+nf:
+  desc: null
+  value: 64
+wandb:
+  desc: null
+  value: proto
+seed:
+  desc: null
+  value: 3407
+print_freq:
+  desc: null
+  value: 1000
+gpu:
+  desc: null
+  value: null
+workers:
+  desc: null
+  value: 4
+resume:
+  desc: null
+  value: null
+start_epoch:
+  desc: null
+  value: 0
+root_log:
+  desc: null
+  value: ./output/
+root_model:
+  desc: null
+  value: ./output/
+store_name:
+  desc: null
+  value: 'dataset: cifar100#arch: resnet_proto#imbanlance_rate: 0.01#2023-08-28 15:03:22'

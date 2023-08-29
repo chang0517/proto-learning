@@ -359,6 +359,22 @@ def proto_mixup_cutmix(input,bal_input, alpha=20, beta=2):
 
     return input, lam
 
+def proto_both_bal(x, y, alpha=20, beta=2):
+    lam = np.random.beta(alpha, beta)
+    # lam = 0.95 
+    batch_size = x.size()[0]
+
+    index = torch.randperm(batch_size).cuda()
+    
+    mixup_x = lam * x + (1 - lam) * x[index, :]
+    y_a, y_b = y, y[index]
+    
+    bbx1, bby1, bbx2, bby2 = rand_bbox(x.size(), lam)
+    x[:, :, bbx1:bbx2, bby1:bby2] = x[index, :, bbx1:bbx2, bby1:bby2]
+    cut_lam = 1 - ((bbx2 - bbx1) * (bby2 - bby1) / (x.size()[-1] * x.size()[-2]))
+
+    return mixup_x, x, y_a, y_b, lam, cut_lam, index
+
 def proto_mixup(input, bal_input, alpha=1, beta=1):
     lam = np.random.beta(alpha, beta)
     # lam = 0.95 
@@ -386,7 +402,9 @@ def get_store_name(args):
         store_name = '+'.join([base_name,'Bal_CE'])
     elif (args.weight_sample == True) & (args.mixed == 'ce') & (args.use_proto == False):
         store_name = '+'.join([base_name,'LT_Bal_CE'])
-        
+    elif (args.mixed == 'both_bal') & (args.use_proto == True):
+        store_name = '+'.join([base_name,'LT_Bal_both_bal'])
+    
     elif args.coeff_2 == 0 & (args.weight_sample ==False) & (args.mixed == 'mixup_bal'):
         store_name = '+'.join([base_name,'LT_mixup'])
     elif (args.weight_sample ==True) & (args.mixed == 'mixup_bal'):

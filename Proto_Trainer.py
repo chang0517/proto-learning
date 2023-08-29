@@ -123,6 +123,15 @@ class Proto_Trainer(object):
                     loss = mixup_criterion(self.criterion_ce, logits, y_a, y_b, lam)
                     balance_loss = loss
 
+                elif self.args.mixed == 'both_bal':
+                    mixed_x, cutmix_x, y_a, y_b, lam, cut_lam, index = util.proto_both_bal(bal_ce_input, bal_target)
+                    _, logits_mix, _  = self.model(mixed_x)
+                    _, logits_cut, _  = self.model(cutmix_x)
+                    loss_1 = mixup_criterion(self.criterion_ce, logits_mix, y_a, y_b, lam)
+                    loss_2 = mixup_criterion(self.criterion_ce, logits_cut, y_a, y_b, cut_lam)
+                    
+                    balance_loss = loss_1 + loss_2
+                
                 elif self.args.mixed == 'mixup':
                     mixed_x, lam = util.proto_mixup(ce_input,bal_ce_input)
                     _, logits, _  = self.model(mixed_x)

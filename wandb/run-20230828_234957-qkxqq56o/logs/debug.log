@@ -1,0 +1,28 @@
+2023-08-28 23:49:57,338 INFO    MainThread:4131512 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-08-28 23:49:57,338 INFO    MainThread:4131512 [wandb_setup.py:_flush():76] Configure stats pid to 4131512
+2023-08-28 23:49:57,338 INFO    MainThread:4131512 [wandb_setup.py:_flush():76] Loading settings from /home/minee/.config/wandb/settings
+2023-08-28 23:49:57,338 INFO    MainThread:4131512 [wandb_setup.py:_flush():76] Loading settings from /home/minee/GLMC-2023/wandb/settings
+2023-08-28 23:49:57,338 INFO    MainThread:4131512 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-08-28 23:49:57,338 INFO    MainThread:4131512 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-08-28 23:49:57,338 INFO    MainThread:4131512 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2023-08-28 23:49:57,339 INFO    MainThread:4131512 [wandb_init.py:_log_setup():507] Logging user logs to /home/minee/GLMC-2023/wandb/run-20230828_234957-qkxqq56o/logs/debug.log
+2023-08-28 23:49:57,339 INFO    MainThread:4131512 [wandb_init.py:_log_setup():508] Logging internal logs to /home/minee/GLMC-2023/wandb/run-20230828_234957-qkxqq56o/logs/debug-internal.log
+2023-08-28 23:49:57,339 INFO    MainThread:4131512 [wandb_init.py:init():547] calling init triggers
+2023-08-28 23:49:57,339 INFO    MainThread:4131512 [wandb_init.py:init():555] wandb.init called with sweep_config: {}
+config: {}
+2023-08-28 23:49:57,339 INFO    MainThread:4131512 [wandb_init.py:init():596] starting backend
+2023-08-28 23:49:57,339 INFO    MainThread:4131512 [wandb_init.py:init():600] setting up manager
+2023-08-28 23:49:57,342 INFO    MainThread:4131512 [backend.py:_multiprocessing_setup():108] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-08-28 23:49:57,344 INFO    MainThread:4131512 [wandb_init.py:init():606] backend started and connected
+2023-08-28 23:49:57,347 INFO    MainThread:4131512 [wandb_init.py:init():705] updated telemetry
+2023-08-28 23:49:57,368 INFO    MainThread:4131512 [wandb_init.py:init():738] communicating run to backend with 60.0 second timeout
+2023-08-28 23:49:57,911 INFO    MainThread:4131512 [wandb_run.py:_on_init():2173] communicating current version
+2023-08-28 23:49:57,972 INFO    MainThread:4131512 [wandb_run.py:_on_init():2182] got version response upgrade_message: "wandb version 0.15.9 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-08-28 23:49:57,973 INFO    MainThread:4131512 [wandb_init.py:init():789] starting run threads in backend
+2023-08-28 23:50:00,549 INFO    MainThread:4131512 [wandb_run.py:_console_start():2152] atexit reg
+2023-08-28 23:50:00,550 INFO    MainThread:4131512 [wandb_run.py:_redirect():2007] redirect: SettingsConsole.WRAP_RAW
+2023-08-28 23:50:00,550 INFO    MainThread:4131512 [wandb_run.py:_redirect():2072] Wrapping output streams.
+2023-08-28 23:50:00,550 INFO    MainThread:4131512 [wandb_run.py:_redirect():2097] Redirects installed.
+2023-08-28 23:50:00,551 INFO    MainThread:4131512 [wandb_init.py:init():830] run started, returning control to user process
+2023-08-28 23:50:00,552 INFO    MainThread:4131512 [wandb_run.py:_config_callback():1281] config_cb None None {'dataset': 'cifar10', 'root': '../data', 'arch': 'resnet_proto', 'num_classes': 10, 'imbanlance_rate': 0.01, 'lr': 0.01, 'epochs': 200, 'batch_size': 64, 'momentum': 0.9, 'weight_decay': 0.005, 'dir_train_txt': '../data/imagenet/ImageNet_LT_train.txt', 'dir_test_txt': '../data/imagenet/ImageNet_LT_test.txt', 'resample_weighting': 0.2, 'label_weighting': 1.0, 'contrast_weight': 10, 'alpha': 50, 'beta': 2, 'randaug_m': 10, 'randaug_n': 2, 'use_proto': True, 'method': 'proto', 'loss': 'logit', 'loss2': 'proto', 'aug_step': '3', 'coeff_1': 1.0, 'coeff_2': 0.8, 'fix': 'True', 'cum': 'Y', 'mix_coeff': 1, 'cut_coeff': 1, 'project': True, 'mixed': 'both_bal', 'weight_sample': True, 'feat_dim': 64, 'hidden_dim': 512, 'nf': 64, 'wandb': 'proto', 'seed': 3407, 'print_freq': 1000, 'gpu': None, 'workers': 4, 'resume': None, 'start_epoch': 0, 'root_log': './output/', 'root_model': './output/', 'store_name': 'dataset: cifar10#arch: resnet_proto#imbanlance_rate: 0.01#2023-08-28 23:49:55'}

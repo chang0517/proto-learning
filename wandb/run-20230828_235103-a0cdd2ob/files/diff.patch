@@ -1,0 +1,64 @@
+diff --git a/Proto_Trainer.py b/Proto_Trainer.py
+index 9a0b33d..cf0f8a0 100644
+--- a/Proto_Trainer.py
++++ b/Proto_Trainer.py
+@@ -123,6 +123,15 @@ class Proto_Trainer(object):
+                     loss = mixup_criterion(self.criterion_ce, logits, y_a, y_b, lam)
+                     balance_loss = loss
+ 
++                elif self.args.mixed == 'both_bal':
++                    mixed_x, cutmix_x, y_a, y_b, lam, cut_lam, index = util.proto_both_bal(bal_ce_input, bal_target)
++                    _, logits_mix, _  = self.model(mixed_x)
++                    _, logits_cut, _  = self.model(cutmix_x)
++                    loss_1 = mixup_criterion(self.criterion_ce, logits_mix, y_a, y_b, lam)
++                    loss_2 = mixup_criterion(self.criterion_ce, logits_cut, y_a, y_b, cut_lam)
++                    
++                    balance_loss = loss_1 + loss_2
++                
+                 elif self.args.mixed == 'mixup':
+                     mixed_x, lam = util.proto_mixup(ce_input,bal_ce_input)
+                     _, logits, _  = self.model(mixed_x)
+diff --git a/__pycache__/Proto_Trainer.cpython-37.pyc b/__pycache__/Proto_Trainer.cpython-37.pyc
+index d2477b7..e2aa1a6 100644
+Binary files a/__pycache__/Proto_Trainer.cpython-37.pyc and b/__pycache__/Proto_Trainer.cpython-37.pyc differ
+diff --git a/utils/__pycache__/util.cpython-37.pyc b/utils/__pycache__/util.cpython-37.pyc
+index 8c2fd1e..f91af64 100644
+Binary files a/utils/__pycache__/util.cpython-37.pyc and b/utils/__pycache__/util.cpython-37.pyc differ
+diff --git a/utils/util.py b/utils/util.py
+index 249f502..eb044a9 100644
+--- a/utils/util.py
++++ b/utils/util.py
+@@ -359,6 +359,22 @@ def proto_mixup_cutmix(input,bal_input, alpha=20, beta=2):
+ 
+     return input, lam
+ 
++def proto_both_bal(x, y, alpha=20, beta=2):
++    lam = np.random.beta(alpha, beta)
++    # lam = 0.95 
++    batch_size = x.size()[0]
++
++    index = torch.randperm(batch_size).cuda()
++    
++    mixup_x = lam * x + (1 - lam) * x[index, :]
++    y_a, y_b = y, y[index]
++    
++    bbx1, bby1, bbx2, bby2 = rand_bbox(x.size(), lam)
++    x[:, :, bbx1:bbx2, bby1:bby2] = x[index, :, bbx1:bbx2, bby1:bby2]
++    cut_lam = 1 - ((bbx2 - bbx1) * (bby2 - bby1) / (x.size()[-1] * x.size()[-2]))
++
++    return mixup_x, x, y_a, y_b, lam, cut_lam, index
++
+ def proto_mixup(input, bal_input, alpha=1, beta=1):
+     lam = np.random.beta(alpha, beta)
+     # lam = 0.95 
+@@ -386,7 +402,9 @@ def get_store_name(args):
+         store_name = '+'.join([base_name,'Bal_CE'])
+     elif (args.weight_sample == True) & (args.mixed == 'ce') & (args.use_proto == False):
+         store_name = '+'.join([base_name,'LT_Bal_CE'])
+-        
++    elif (args.mixed == 'both_bal') & (args.use_proto == True):
++        store_name = '+'.join([base_name,'LT_Bal_both_bal'])
++    
+     elif args.coeff_2 == 0 & (args.weight_sample ==False) & (args.mixed == 'mixup_bal'):
+         store_name = '+'.join([base_name,'LT_mixup'])
+     elif (args.weight_sample ==True) & (args.mixed == 'mixup_bal'):

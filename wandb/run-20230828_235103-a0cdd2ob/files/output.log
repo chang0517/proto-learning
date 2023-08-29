@@ -1,0 +1,474 @@
+=> creating model 'resnet_proto'
+  + Number of params: 7.78M
+Files already downloaded and verified
+Files already downloaded and verified
+load cifar100
+100
+proto Training started!
+Epoch: [1/200][0/170]	Time 2.032 (2.032)	Data 1.566 (1.566)	Loss 13.8699 (13.8699)
+/home/minee/GLMC-2023/utils/losses.py:219: UserWarning: The use of `x.T` on tensors of dimension other than 2 to reverse their shape is deprecated and it will throw an error in a future release. Consider `x.mT` to transpose batches of matricesor `x.permute(*torch.arange(x.ndim - 1, -1, -1))` to reverse the dimensions of a tensor. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755953518/work/aten/src/ATen/native/TensorShape.cpp:2318.)
+  mask = torch.eq(labels, label_center.T).float().to(device)
+Test: [0/157]	Time 0.264 (0.264)	Prec@1 6.250 (6.250)	Prec@5 18.750 (18.750)
+08/28 11:51:44 PM EPOCH: 1 val Results: Prec@1 4.560 Prec@5 16.700
+many avg, med avg, few avg 3.8 7.588235294117645 2.0967741935483875
+Best Prec@1: 4.560
+Epoch: [2/200][0/170]	Time 0.919 (0.919)	Data 0.815 (0.815)	Loss 11.6137 (11.6137)
+Test: [0/157]	Time 0.287 (0.287)	Prec@1 6.250 (6.250)	Prec@5 26.562 (26.562)
+08/28 11:52:15 PM EPOCH: 2 val Results: Prec@1 7.090 Prec@5 22.530
+many avg, med avg, few avg 6.6571428571428575 10.882352941176471 3.4193548387096775
+Best Prec@1: 7.090
+Epoch: [3/200][0/170]	Time 0.963 (0.963)	Data 0.857 (0.857)	Loss 11.2501 (11.2501)
+Test: [0/157]	Time 0.286 (0.286)	Prec@1 3.125 (3.125)	Prec@5 21.875 (21.875)
+08/28 11:52:47 PM EPOCH: 3 val Results: Prec@1 5.530 Prec@5 22.000
+many avg, med avg, few avg 2.7428571428571433 8.264705882352942 5.677419354838711
+Best Prec@1: 7.090
+Epoch: [4/200][0/170]	Time 0.938 (0.938)	Data 0.833 (0.833)	Loss 11.7724 (11.7724)
+Test: [0/157]	Time 0.244 (0.244)	Prec@1 9.375 (9.375)	Prec@5 26.562 (26.562)
+08/28 11:53:18 PM EPOCH: 4 val Results: Prec@1 8.520 Prec@5 27.350
+many avg, med avg, few avg 8.914285714285713 11.235294117647058 5.096774193548388
+Best Prec@1: 8.520
+Epoch: [5/200][0/170]	Time 0.988 (0.988)	Data 0.881 (0.881)	Loss 11.2793 (11.2793)
+Test: [0/157]	Time 0.287 (0.287)	Prec@1 9.375 (9.375)	Prec@5 29.688 (29.688)
+08/28 11:53:49 PM EPOCH: 5 val Results: Prec@1 8.830 Prec@5 30.060
+many avg, med avg, few avg 9.714285714285714 10.264705882352942 6.258064516129032
+Best Prec@1: 8.830
+Epoch: [6/200][0/170]	Time 0.874 (0.874)	Data 0.768 (0.768)	Loss 11.5182 (11.5182)
+Test: [0/157]	Time 0.282 (0.282)	Prec@1 14.062 (14.062)	Prec@5 35.938 (35.938)
+08/28 11:54:21 PM EPOCH: 6 val Results: Prec@1 9.920 Prec@5 31.820
+many avg, med avg, few avg 9.000000000000002 10.499999999999998 10.322580645161288
+Best Prec@1: 9.920
+Epoch: [7/200][0/170]	Time 1.059 (1.059)	Data 0.954 (0.954)	Loss 9.8384 (9.8384)
+Test: [0/157]	Time 0.284 (0.284)	Prec@1 14.062 (14.062)	Prec@5 35.938 (35.938)
+08/28 11:54:52 PM EPOCH: 7 val Results: Prec@1 12.620 Prec@5 36.340
+many avg, med avg, few avg 18.942857142857143 12.705882352941172 5.387096774193549
+Best Prec@1: 12.620
+Epoch: [8/200][0/170]	Time 0.952 (0.952)	Data 0.846 (0.846)	Loss 9.6173 (9.6173)
+Test: [0/157]	Time 0.291 (0.291)	Prec@1 14.062 (14.062)	Prec@5 45.312 (45.312)
+08/28 11:55:24 PM EPOCH: 8 val Results: Prec@1 15.480 Prec@5 41.430
+many avg, med avg, few avg 23.342857142857138 13.147058823529408 9.161290322580648
+Best Prec@1: 15.480
+Epoch: [9/200][0/170]	Time 0.986 (0.986)	Data 0.881 (0.881)	Loss 9.5089 (9.5089)
+Test: [0/157]	Time 0.279 (0.279)	Prec@1 18.750 (18.750)	Prec@5 40.625 (40.625)
+08/28 11:55:55 PM EPOCH: 9 val Results: Prec@1 14.820 Prec@5 40.320
+many avg, med avg, few avg 13.857142857142856 14.058823529411763 16.741935483870968
+Best Prec@1: 15.480
+Epoch: [10/200][0/170]	Time 0.959 (0.959)	Data 0.853 (0.853)	Loss 9.4395 (9.4395)
+Test: [0/157]	Time 0.274 (0.274)	Prec@1 20.312 (20.312)	Prec@5 46.875 (46.875)
+08/28 11:56:27 PM EPOCH: 10 val Results: Prec@1 18.550 Prec@5 47.150
+many avg, med avg, few avg 23.199999999999992 18.08823529411765 13.80645161290322
+Best Prec@1: 18.550
+Epoch: [11/200][0/170]	Time 0.969 (0.969)	Data 0.863 (0.863)	Loss 9.2541 (9.2541)
+Test: [0/157]	Time 0.276 (0.276)	Prec@1 15.625 (15.625)	Prec@5 45.312 (45.312)
+08/28 11:56:58 PM EPOCH: 11 val Results: Prec@1 20.610 Prec@5 49.940
+many avg, med avg, few avg 30.02857142857142 17.14705882352941 13.774193548387094
+Best Prec@1: 20.610
+Epoch: [12/200][0/170]	Time 0.953 (0.953)	Data 0.846 (0.846)	Loss 8.4433 (8.4433)
+Test: [0/157]	Time 0.286 (0.286)	Prec@1 15.625 (15.625)	Prec@5 50.000 (50.000)
+08/28 11:57:30 PM EPOCH: 12 val Results: Prec@1 19.970 Prec@5 49.270
+many avg, med avg, few avg 26.857142857142858 21.08823529411764 10.967741935483868
+Best Prec@1: 20.610
+Epoch: [13/200][0/170]	Time 1.001 (1.001)	Data 0.894 (0.894)	Loss 7.9561 (7.9561)
+Test: [0/157]	Time 0.274 (0.274)	Prec@1 23.438 (23.438)	Prec@5 53.125 (53.125)
+08/28 11:58:01 PM EPOCH: 13 val Results: Prec@1 22.010 Prec@5 53.800
+many avg, med avg, few avg 25.1142857142857 24.411764705882348 15.870967741935484
+Best Prec@1: 22.010
+Epoch: [14/200][0/170]	Time 0.960 (0.960)	Data 0.854 (0.854)	Loss 8.0031 (8.0031)
+Test: [0/157]	Time 0.286 (0.286)	Prec@1 31.250 (31.250)	Prec@5 57.812 (57.812)
+08/28 11:58:32 PM EPOCH: 14 val Results: Prec@1 19.900 Prec@5 50.280
+many avg, med avg, few avg 26.399999999999995 17.91176470588235 14.741935483870966
+Best Prec@1: 22.010
+Epoch: [15/200][0/170]	Time 0.992 (0.992)	Data 0.883 (0.883)	Loss 8.9635 (8.9635)
+Test: [0/157]	Time 0.256 (0.256)	Prec@1 25.000 (25.000)	Prec@5 60.938 (60.938)
+08/28 11:59:04 PM EPOCH: 15 val Results: Prec@1 23.790 Prec@5 55.470
+many avg, med avg, few avg 31.68571428571428 24.941176470588232 13.612903225806452
+Best Prec@1: 23.790
+Epoch: [16/200][0/170]	Time 0.874 (0.874)	Data 0.766 (0.766)	Loss 10.4162 (10.4162)
+Test: [0/157]	Time 0.280 (0.280)	Prec@1 31.250 (31.250)	Prec@5 64.062 (64.062)
+08/28 11:59:35 PM EPOCH: 16 val Results: Prec@1 23.300 Prec@5 57.160
+many avg, med avg, few avg 31.714285714285722 22.58823529411764 14.580645161290319
+Best Prec@1: 23.790
+Epoch: [17/200][0/170]	Time 0.905 (0.905)	Data 0.798 (0.798)	Loss 8.9121 (8.9121)
+Test: [0/157]	Time 0.284 (0.284)	Prec@1 28.125 (28.125)	Prec@5 62.500 (62.500)
+08/29 12:00:07 AM EPOCH: 17 val Results: Prec@1 27.170 Prec@5 60.150
+many avg, med avg, few avg 37.0 26.999999999999993 16.258064516129032
+Best Prec@1: 27.170
+Epoch: [18/200][0/170]	Time 0.940 (0.940)	Data 0.834 (0.834)	Loss 8.4297 (8.4297)
+Test: [0/157]	Time 0.304 (0.304)	Prec@1 34.375 (34.375)	Prec@5 60.938 (60.938)
+08/29 12:00:38 AM EPOCH: 18 val Results: Prec@1 26.750 Prec@5 58.530
+many avg, med avg, few avg 35.05714285714284 25.882352941176475 18.32258064516129
+Best Prec@1: 27.170
+Epoch: [19/200][0/170]	Time 1.056 (1.056)	Data 0.952 (0.952)	Loss 9.8833 (9.8833)
+Test: [0/157]	Time 0.293 (0.293)	Prec@1 28.125 (28.125)	Prec@5 54.688 (54.688)
+08/29 12:01:09 AM EPOCH: 19 val Results: Prec@1 25.990 Prec@5 57.460
+many avg, med avg, few avg 32.6 25.147058823529406 19.451612903225804
+Best Prec@1: 27.170
+Epoch: [20/200][0/170]	Time 1.001 (1.001)	Data 0.894 (0.894)	Loss 8.2700 (8.2700)
+Test: [0/157]	Time 0.289 (0.289)	Prec@1 25.000 (25.000)	Prec@5 56.250 (56.250)
+08/29 12:01:41 AM EPOCH: 20 val Results: Prec@1 24.820 Prec@5 56.040
+many avg, med avg, few avg 33.714285714285715 21.94117647058823 17.935483870967733
+Best Prec@1: 27.170
+Epoch: [21/200][0/170]	Time 1.003 (1.003)	Data 0.898 (0.898)	Loss 8.1632 (8.1632)
+Test: [0/157]	Time 0.279 (0.279)	Prec@1 34.375 (34.375)	Prec@5 57.812 (57.812)
+08/29 12:02:12 AM EPOCH: 21 val Results: Prec@1 28.820 Prec@5 61.710
+many avg, med avg, few avg 36.8 26.97058823529411 21.838709677419352
+Best Prec@1: 28.820
+Epoch: [22/200][0/170]	Time 0.944 (0.944)	Data 0.837 (0.837)	Loss 7.8492 (7.8492)
+Test: [0/157]	Time 0.254 (0.254)	Prec@1 26.562 (26.562)	Prec@5 64.062 (64.062)
+08/29 12:02:44 AM EPOCH: 22 val Results: Prec@1 26.110 Prec@5 56.610
+many avg, med avg, few avg 35.39999999999999 25.058823529411768 16.774193548387093
+Best Prec@1: 28.820
+Epoch: [23/200][0/170]	Time 0.924 (0.924)	Data 0.820 (0.820)	Loss 6.6898 (6.6898)
+Test: [0/157]	Time 0.243 (0.243)	Prec@1 32.812 (32.812)	Prec@5 60.938 (60.938)
+08/29 12:03:15 AM EPOCH: 23 val Results: Prec@1 29.240 Prec@5 60.830
+many avg, med avg, few avg 38.4 30.94117647058823 17.032258064516125
+Best Prec@1: 29.240
+Epoch: [24/200][0/170]	Time 0.863 (0.863)	Data 0.756 (0.756)	Loss 7.5060 (7.5060)
+Test: [0/157]	Time 0.248 (0.248)	Prec@1 35.938 (35.938)	Prec@5 59.375 (59.375)
+08/29 12:03:46 AM EPOCH: 24 val Results: Prec@1 25.640 Prec@5 56.190
+many avg, med avg, few avg 32.685714285714276 26.970588235294116 16.225806451612904
+Best Prec@1: 29.240
+Epoch: [25/200][0/170]	Time 0.858 (0.858)	Data 0.751 (0.751)	Loss 8.2307 (8.2307)
+Test: [0/157]	Time 0.237 (0.237)	Prec@1 26.562 (26.562)	Prec@5 65.625 (65.625)
+08/29 12:04:18 AM EPOCH: 25 val Results: Prec@1 29.870 Prec@5 61.970
+many avg, med avg, few avg 38.514285714285705 29.911764705882348 20.06451612903226
+Best Prec@1: 29.870
+Epoch: [26/200][0/170]	Time 0.839 (0.839)	Data 0.733 (0.733)	Loss 7.3881 (7.3881)
+Test: [0/157]	Time 0.240 (0.240)	Prec@1 31.250 (31.250)	Prec@5 62.500 (62.500)
+08/29 12:04:49 AM EPOCH: 26 val Results: Prec@1 31.190 Prec@5 62.030
+many avg, med avg, few avg 41.2 31.205882352941178 19.870967741935484
+Best Prec@1: 31.190
+Epoch: [27/200][0/170]	Time 0.888 (0.888)	Data 0.783 (0.783)	Loss 6.7696 (6.7696)
+Test: [0/157]	Time 0.260 (0.260)	Prec@1 40.625 (40.625)	Prec@5 62.500 (62.500)
+08/29 12:05:20 AM EPOCH: 27 val Results: Prec@1 32.440 Prec@5 64.100
+many avg, med avg, few avg 42.57142857142856 31.147058823529406 22.419354838709676
+Best Prec@1: 32.440
+Epoch: [28/200][0/170]	Time 0.870 (0.870)	Data 0.763 (0.763)	Loss 8.5900 (8.5900)
+Test: [0/157]	Time 0.237 (0.237)	Prec@1 39.062 (39.062)	Prec@5 65.625 (65.625)
+08/29 12:05:51 AM EPOCH: 28 val Results: Prec@1 30.860 Prec@5 63.570
+many avg, med avg, few avg 41.02857142857143 30.85294117647058 19.387096774193544
+Best Prec@1: 32.440
+Epoch: [29/200][0/170]	Time 0.865 (0.865)	Data 0.758 (0.758)	Loss 7.2635 (7.2635)
+Test: [0/157]	Time 0.272 (0.272)	Prec@1 28.125 (28.125)	Prec@5 57.812 (57.812)
+08/29 12:06:23 AM EPOCH: 29 val Results: Prec@1 28.260 Prec@5 58.130
+many avg, med avg, few avg 35.34285714285715 30.470588235294116 17.838709677419352
+Best Prec@1: 32.440
+Epoch: [30/200][0/170]	Time 1.021 (1.021)	Data 0.915 (0.915)	Loss 7.7565 (7.7565)
+Test: [0/157]	Time 0.288 (0.288)	Prec@1 43.750 (43.750)	Prec@5 64.062 (64.062)
+08/29 12:06:54 AM EPOCH: 30 val Results: Prec@1 34.470 Prec@5 67.890
+many avg, med avg, few avg 47.714285714285715 34.61764705882353 19.354838709677416
+Best Prec@1: 34.470
+Epoch: [31/200][0/170]	Time 0.916 (0.916)	Data 0.810 (0.810)	Loss 6.9767 (6.9767)
+Test: [0/157]	Time 0.240 (0.240)	Prec@1 40.625 (40.625)	Prec@5 70.312 (70.312)
+08/29 12:07:25 AM EPOCH: 31 val Results: Prec@1 34.580 Prec@5 66.930
+many avg, med avg, few avg 47.05714285714286 33.117647058823536 22.096774193548388
+Best Prec@1: 34.580
+Epoch: [32/200][0/170]	Time 0.827 (0.827)	Data 0.720 (0.720)	Loss 6.9098 (6.9098)
+Test: [0/157]	Time 0.238 (0.238)	Prec@1 29.688 (29.688)	Prec@5 68.750 (68.750)
+08/29 12:07:57 AM EPOCH: 32 val Results: Prec@1 30.910 Prec@5 61.770
+many avg, med avg, few avg 42.4 29.764705882352946 19.193548387096772
+Best Prec@1: 34.580
+Epoch: [33/200][0/170]	Time 0.873 (0.873)	Data 0.766 (0.766)	Loss 6.7107 (6.7107)
+Test: [0/157]	Time 0.237 (0.237)	Prec@1 39.062 (39.062)	Prec@5 75.000 (75.000)
+08/29 12:08:28 AM EPOCH: 33 val Results: Prec@1 32.370 Prec@5 64.720
+many avg, med avg, few avg 40.85714285714287 34.147058823529406 20.83870967741936
+Best Prec@1: 34.580
+Epoch: [34/200][0/170]	Time 0.833 (0.833)	Data 0.728 (0.728)	Loss 7.4448 (7.4448)
+Test: [0/157]	Time 0.239 (0.239)	Prec@1 35.938 (35.938)	Prec@5 67.188 (67.188)
+08/29 12:08:59 AM EPOCH: 34 val Results: Prec@1 33.770 Prec@5 66.480
+many avg, med avg, few avg 43.628571428571426 33.49999999999999 22.93548387096774
+Best Prec@1: 34.580
+Epoch: [35/200][0/170]	Time 0.885 (0.885)	Data 0.779 (0.779)	Loss 7.3357 (7.3357)
+Test: [0/157]	Time 0.224 (0.224)	Prec@1 42.188 (42.188)	Prec@5 71.875 (71.875)
+08/29 12:09:30 AM EPOCH: 35 val Results: Prec@1 35.740 Prec@5 68.220
+many avg, med avg, few avg 50.97142857142857 33.41176470588235 21.096774193548395
+Best Prec@1: 35.740
+Epoch: [36/200][0/170]	Time 0.863 (0.863)	Data 0.758 (0.758)	Loss 6.8446 (6.8446)
+Test: [0/157]	Time 0.252 (0.252)	Prec@1 37.500 (37.500)	Prec@5 71.875 (71.875)
+08/29 12:10:01 AM EPOCH: 36 val Results: Prec@1 33.640 Prec@5 66.170
+many avg, med avg, few avg 46.20000000000001 32.647058823529406 20.54838709677419
+Best Prec@1: 35.740
+Epoch: [37/200][0/170]	Time 0.901 (0.901)	Data 0.795 (0.795)	Loss 8.7146 (8.7146)
+Test: [0/157]	Time 0.235 (0.235)	Prec@1 42.188 (42.188)	Prec@5 78.125 (78.125)
+08/29 12:10:32 AM EPOCH: 37 val Results: Prec@1 35.970 Prec@5 68.240
+many avg, med avg, few avg 45.37142857142859 37.91176470588235 23.2258064516129
+Best Prec@1: 35.970
+Epoch: [38/200][0/170]	Time 0.816 (0.816)	Data 0.711 (0.711)	Loss 8.0588 (8.0588)
+Test: [0/157]	Time 0.238 (0.238)	Prec@1 34.375 (34.375)	Prec@5 67.188 (67.188)
+08/29 12:11:03 AM EPOCH: 38 val Results: Prec@1 31.780 Prec@5 63.440
+many avg, med avg, few avg 40.25714285714286 34.794117647058826 18.903225806451612
+Best Prec@1: 35.970
+Epoch: [39/200][0/170]	Time 0.892 (0.892)	Data 0.788 (0.788)	Loss 8.3771 (8.3771)
+Test: [0/157]	Time 0.252 (0.252)	Prec@1 43.750 (43.750)	Prec@5 65.625 (65.625)
+08/29 12:11:34 AM EPOCH: 39 val Results: Prec@1 34.380 Prec@5 65.840
+many avg, med avg, few avg 42.05714285714286 35.20588235294117 24.80645161290322
+Best Prec@1: 35.970
+Epoch: [40/200][0/170]	Time 0.883 (0.883)	Data 0.778 (0.778)	Loss 8.0268 (8.0268)
+Test: [0/157]	Time 0.285 (0.285)	Prec@1 32.812 (32.812)	Prec@5 64.062 (64.062)
+08/29 12:12:05 AM EPOCH: 40 val Results: Prec@1 33.350 Prec@5 64.600
+many avg, med avg, few avg 44.8 34.88235294117648 18.741935483870964
+Best Prec@1: 35.970
+Epoch: [41/200][0/170]	Time 0.884 (0.884)	Data 0.779 (0.779)	Loss 7.9245 (7.9245)
+Test: [0/157]	Time 0.240 (0.240)	Prec@1 31.250 (31.250)	Prec@5 60.938 (60.938)
+08/29 12:12:37 AM EPOCH: 41 val Results: Prec@1 28.850 Prec@5 59.430
+many avg, med avg, few avg 34.885714285714286 34.6764705882353 15.645161290322578
+Best Prec@1: 35.970
+Epoch: [42/200][0/170]	Time 0.873 (0.873)	Data 0.768 (0.768)	Loss 7.7632 (7.7632)
+Test: [0/157]	Time 0.234 (0.234)	Prec@1 40.625 (40.625)	Prec@5 65.625 (65.625)
+08/29 12:13:08 AM EPOCH: 42 val Results: Prec@1 36.210 Prec@5 67.440
+many avg, med avg, few avg 46.114285714285714 39.73529411764706 21.161290322580637
+Best Prec@1: 36.210
+Epoch: [43/200][0/170]	Time 0.873 (0.873)	Data 0.766 (0.766)	Loss 7.2509 (7.2509)
+Test: [0/157]	Time 0.225 (0.225)	Prec@1 43.750 (43.750)	Prec@5 65.625 (65.625)
+08/29 12:13:39 AM EPOCH: 43 val Results: Prec@1 35.230 Prec@5 66.170
+many avg, med avg, few avg 42.54285714285714 40.05882352941177 21.677419354838705
+Best Prec@1: 36.210
+Epoch: [44/200][0/170]	Time 0.811 (0.811)	Data 0.705 (0.705)	Loss 6.9861 (6.9861)
+Test: [0/157]	Time 0.249 (0.249)	Prec@1 40.625 (40.625)	Prec@5 65.625 (65.625)
+08/29 12:14:10 AM EPOCH: 44 val Results: Prec@1 32.510 Prec@5 62.690
+many avg, med avg, few avg 44.82857142857143 30.205882352941185 21.12903225806452
+Best Prec@1: 36.210
+Epoch: [45/200][0/170]	Time 0.881 (0.881)	Data 0.778 (0.778)	Loss 7.3339 (7.3339)
+Test: [0/157]	Time 0.222 (0.222)	Prec@1 50.000 (50.000)	Prec@5 68.750 (68.750)
+08/29 12:14:41 AM EPOCH: 45 val Results: Prec@1 36.700 Prec@5 69.270
+many avg, med avg, few avg 47.2 38.91176470588236 22.41935483870967
+Best Prec@1: 36.700
+Epoch: [46/200][0/170]	Time 0.861 (0.861)	Data 0.757 (0.757)	Loss 6.9142 (6.9142)
+Test: [0/157]	Time 0.256 (0.256)	Prec@1 42.188 (42.188)	Prec@5 73.438 (73.438)
+08/29 12:15:12 AM EPOCH: 46 val Results: Prec@1 36.700 Prec@5 68.960
+many avg, med avg, few avg 48.199999999999996 36.823529411764696 23.580645161290324
+Best Prec@1: 36.700
+Epoch: [47/200][0/170]	Time 0.842 (0.842)	Data 0.738 (0.738)	Loss 7.0133 (7.0133)
+Test: [0/157]	Time 0.239 (0.239)	Prec@1 42.188 (42.188)	Prec@5 67.188 (67.188)
+08/29 12:15:43 AM EPOCH: 47 val Results: Prec@1 37.060 Prec@5 69.870
+many avg, med avg, few avg 45.714285714285715 40.58823529411764 23.419354838709666
+Best Prec@1: 37.060
+Epoch: [48/200][0/170]	Time 0.877 (0.877)	Data 0.770 (0.770)	Loss 6.2758 (6.2758)
+Test: [0/157]	Time 0.238 (0.238)	Prec@1 50.000 (50.000)	Prec@5 73.438 (73.438)
+08/29 12:16:14 AM EPOCH: 48 val Results: Prec@1 36.190 Prec@5 67.520
+many avg, med avg, few avg 50.942857142857136 34.823529411764696 21.032258064516128
+Best Prec@1: 37.060
+Epoch: [49/200][0/170]	Time 0.960 (0.960)	Data 0.837 (0.837)	Loss 6.0137 (6.0137)
+Test: [0/157]	Time 0.230 (0.230)	Prec@1 40.625 (40.625)	Prec@5 70.312 (70.312)
+08/29 12:16:45 AM EPOCH: 49 val Results: Prec@1 37.540 Prec@5 70.230
+many avg, med avg, few avg 48.514285714285705 39.38235294117647 23.129032258064516
+Best Prec@1: 37.540
+Epoch: [50/200][0/170]	Time 0.864 (0.864)	Data 0.761 (0.761)	Loss 7.0484 (7.0484)
+Test: [0/157]	Time 0.244 (0.244)	Prec@1 45.312 (45.312)	Prec@5 76.562 (76.562)
+08/29 12:17:17 AM EPOCH: 50 val Results: Prec@1 38.100 Prec@5 70.360
+many avg, med avg, few avg 49.11428571428572 38.94117647058823 24.741935483870964
+Best Prec@1: 38.100
+Epoch: [51/200][0/170]	Time 0.972 (0.972)	Data 0.860 (0.860)	Loss 7.4313 (7.4313)
+Test: [0/157]	Time 0.234 (0.234)	Prec@1 42.188 (42.188)	Prec@5 70.312 (70.312)
+08/29 12:17:48 AM EPOCH: 51 val Results: Prec@1 37.940 Prec@5 68.240
+many avg, med avg, few avg 50.48571428571428 39.323529411764696 22.258064516129036
+Best Prec@1: 38.100
+Epoch: [52/200][0/170]	Time 0.817 (0.817)	Data 0.714 (0.714)	Loss 6.3099 (6.3099)
+Test: [0/157]	Time 0.229 (0.229)	Prec@1 42.188 (42.188)	Prec@5 75.000 (75.000)
+08/29 12:18:19 AM EPOCH: 52 val Results: Prec@1 38.240 Prec@5 69.960
+many avg, med avg, few avg 48.05714285714287 38.47058823529411 26.903225806451612
+Best Prec@1: 38.240
+Epoch: [53/200][0/170]	Time 0.917 (0.917)	Data 0.811 (0.811)	Loss 8.2277 (8.2277)
+Test: [0/157]	Time 0.251 (0.251)	Prec@1 46.875 (46.875)	Prec@5 71.875 (71.875)
+08/29 12:18:50 AM EPOCH: 53 val Results: Prec@1 39.730 Prec@5 72.590
+many avg, med avg, few avg 50.142857142857146 42.176470588235304 25.290322580645157
+Best Prec@1: 39.730
+Epoch: [54/200][0/170]	Time 0.836 (0.836)	Data 0.726 (0.726)	Loss 7.0128 (7.0128)
+Test: [0/157]	Time 0.241 (0.241)	Prec@1 46.875 (46.875)	Prec@5 75.000 (75.000)
+08/29 12:19:21 AM EPOCH: 54 val Results: Prec@1 39.320 Prec@5 70.840
+many avg, med avg, few avg 49.00000000000001 39.44117647058823 28.258064516129036
+Best Prec@1: 39.730
+Epoch: [55/200][0/170]	Time 0.886 (0.886)	Data 0.779 (0.779)	Loss 5.8096 (5.8096)
+Test: [0/157]	Time 0.233 (0.233)	Prec@1 43.750 (43.750)	Prec@5 73.438 (73.438)
+08/29 12:19:52 AM EPOCH: 55 val Results: Prec@1 39.950 Prec@5 71.520
+many avg, med avg, few avg 51.54285714285715 40.705882352941174 26.032258064516128
+Best Prec@1: 39.950
+Epoch: [56/200][0/170]	Time 0.820 (0.820)	Data 0.714 (0.714)	Loss 9.1536 (9.1536)
+Test: [0/157]	Time 0.260 (0.260)	Prec@1 48.438 (48.438)	Prec@5 76.562 (76.562)
+08/29 12:20:23 AM EPOCH: 56 val Results: Prec@1 40.940 Prec@5 72.960
+many avg, med avg, few avg 51.77142857142857 40.94117647058824 28.709677419354847
+Best Prec@1: 40.940
+Epoch: [57/200][0/170]	Time 0.884 (0.884)	Data 0.778 (0.778)	Loss 6.0647 (6.0647)
+Test: [0/157]	Time 0.238 (0.238)	Prec@1 45.312 (45.312)	Prec@5 68.750 (68.750)
+08/29 12:20:55 AM EPOCH: 57 val Results: Prec@1 37.070 Prec@5 69.340
+many avg, med avg, few avg 43.68571428571428 38.64705882352942 27.87096774193549
+Best Prec@1: 40.940
+Epoch: [58/200][0/170]	Time 0.828 (0.828)	Data 0.723 (0.723)	Loss 6.1474 (6.1474)
+Test: [0/157]	Time 0.242 (0.242)	Prec@1 48.438 (48.438)	Prec@5 76.562 (76.562)
+08/29 12:21:26 AM EPOCH: 58 val Results: Prec@1 39.690 Prec@5 72.500
+many avg, med avg, few avg 51.31428571428572 40.14705882352941 26.064516129032267
+Best Prec@1: 40.940
+Epoch: [59/200][0/170]	Time 0.850 (0.850)	Data 0.745 (0.745)	Loss 7.2687 (7.2687)
+Test: [0/157]	Time 0.226 (0.226)	Prec@1 42.188 (42.188)	Prec@5 67.188 (67.188)
+08/29 12:21:57 AM EPOCH: 59 val Results: Prec@1 39.470 Prec@5 71.210
+many avg, med avg, few avg 47.28571428571428 40.441176470588225 29.58064516129033
+Best Prec@1: 40.940
+Epoch: [60/200][0/170]	Time 0.838 (0.838)	Data 0.731 (0.731)	Loss 6.6749 (6.6749)
+Test: [0/157]	Time 0.233 (0.233)	Prec@1 40.625 (40.625)	Prec@5 75.000 (75.000)
+08/29 12:22:28 AM EPOCH: 60 val Results: Prec@1 40.190 Prec@5 71.890
+many avg, med avg, few avg 50.31428571428573 39.499999999999986 29.516129032258064
+Best Prec@1: 40.940
+Epoch: [61/200][0/170]	Time 0.875 (0.875)	Data 0.769 (0.769)	Loss 6.3421 (6.3421)
+Test: [0/157]	Time 0.243 (0.243)	Prec@1 48.438 (48.438)	Prec@5 76.562 (76.562)
+08/29 12:22:59 AM EPOCH: 61 val Results: Prec@1 39.960 Prec@5 72.140
+many avg, med avg, few avg 54.7142857142857 41.44117647058823 21.677419354838708
+Best Prec@1: 40.940
+Epoch: [62/200][0/170]	Time 0.846 (0.846)	Data 0.740 (0.740)	Loss 7.6052 (7.6052)
+Test: [0/157]	Time 0.227 (0.227)	Prec@1 43.750 (43.750)	Prec@5 71.875 (71.875)
+08/29 12:23:30 AM EPOCH: 62 val Results: Prec@1 39.000 Prec@5 69.730
+many avg, med avg, few avg 52.857142857142875 37.52941176470588 24.96774193548387
+Best Prec@1: 40.940
+Epoch: [63/200][0/170]	Time 0.898 (0.898)	Data 0.793 (0.793)	Loss 6.2929 (6.2929)
+Test: [0/157]	Time 0.230 (0.230)	Prec@1 50.000 (50.000)	Prec@5 76.562 (76.562)
+08/29 12:24:01 AM EPOCH: 63 val Results: Prec@1 39.110 Prec@5 70.700
+many avg, med avg, few avg 47.82857142857142 40.64705882352941 27.58064516129032
+Best Prec@1: 40.940
+Epoch: [64/200][0/170]	Time 0.860 (0.860)	Data 0.753 (0.753)	Loss 7.1849 (7.1849)
+Test: [0/157]	Time 0.261 (0.261)	Prec@1 48.438 (48.438)	Prec@5 73.438 (73.438)
+08/29 12:24:31 AM EPOCH: 64 val Results: Prec@1 37.410 Prec@5 69.850
+many avg, med avg, few avg 48.88571428571429 38.5 23.25806451612903
+Best Prec@1: 40.940
+Epoch: [65/200][0/170]	Time 0.859 (0.859)	Data 0.757 (0.757)	Loss 7.2668 (7.2668)
+Test: [0/157]	Time 0.236 (0.236)	Prec@1 42.188 (42.188)	Prec@5 65.625 (65.625)
+08/29 12:25:02 AM EPOCH: 65 val Results: Prec@1 41.170 Prec@5 72.680
+many avg, med avg, few avg 52.542857142857144 39.44117647058823 30.22580645161291
+Best Prec@1: 41.170
+Epoch: [66/200][0/170]	Time 0.827 (0.827)	Data 0.721 (0.721)	Loss 5.4373 (5.4373)
+Test: [0/157]	Time 0.228 (0.228)	Prec@1 46.875 (46.875)	Prec@5 75.000 (75.000)
+08/29 12:25:34 AM EPOCH: 66 val Results: Prec@1 40.940 Prec@5 72.290
+many avg, med avg, few avg 51.428571428571445 43.176470588235304 26.64516129032258
+Best Prec@1: 41.170
+Epoch: [67/200][0/170]	Time 0.870 (0.870)	Data 0.764 (0.764)	Loss 6.7263 (6.7263)
+Test: [0/157]	Time 0.228 (0.228)	Prec@1 50.000 (50.000)	Prec@5 71.875 (71.875)
+08/29 12:26:05 AM EPOCH: 67 val Results: Prec@1 41.790 Prec@5 74.210
+many avg, med avg, few avg 52.48571428571429 46.02941176470588 25.06451612903226
+Best Prec@1: 41.790
+Epoch: [68/200][0/170]	Time 0.834 (0.834)	Data 0.728 (0.728)	Loss 6.0355 (6.0355)
+Test: [0/157]	Time 0.233 (0.233)	Prec@1 45.312 (45.312)	Prec@5 78.125 (78.125)
+08/29 12:26:36 AM EPOCH: 68 val Results: Prec@1 39.420 Prec@5 70.460
+many avg, med avg, few avg 51.314285714285695 40.91176470588234 24.354838709677423
+Best Prec@1: 41.790
+Epoch: [69/200][0/170]	Time 0.963 (0.963)	Data 0.858 (0.858)	Loss 6.9555 (6.9555)
+Test: [0/157]	Time 0.231 (0.231)	Prec@1 43.750 (43.750)	Prec@5 64.062 (64.062)
+08/29 12:27:07 AM EPOCH: 69 val Results: Prec@1 40.230 Prec@5 71.130
+many avg, med avg, few avg 49.02857142857143 41.05882352941177 29.387096774193548
+Best Prec@1: 41.790
+Epoch: [70/200][0/170]	Time 0.871 (0.871)	Data 0.765 (0.765)	Loss 6.2396 (6.2396)
+Test: [0/157]	Time 0.241 (0.241)	Prec@1 48.438 (48.438)	Prec@5 75.000 (75.000)
+08/29 12:27:38 AM EPOCH: 70 val Results: Prec@1 41.700 Prec@5 74.550
+many avg, med avg, few avg 56.199999999999996 38.64705882352941 28.677419354838708
+Best Prec@1: 41.790
+Epoch: [71/200][0/170]	Time 0.996 (0.996)	Data 0.889 (0.889)	Loss 7.3423 (7.3423)
+Test: [0/157]	Time 0.227 (0.227)	Prec@1 50.000 (50.000)	Prec@5 78.125 (78.125)
+08/29 12:28:09 AM EPOCH: 71 val Results: Prec@1 41.450 Prec@5 73.230
+many avg, med avg, few avg 51.657142857142865 43.676470588235304 27.483870967741936
+Best Prec@1: 41.790
+Epoch: [72/200][0/170]	Time 0.854 (0.854)	Data 0.749 (0.749)	Loss 6.9926 (6.9926)
+Test: [0/157]	Time 0.227 (0.227)	Prec@1 39.062 (39.062)	Prec@5 67.188 (67.188)
+08/29 12:28:40 AM EPOCH: 72 val Results: Prec@1 37.700 Prec@5 68.570
+many avg, med avg, few avg 47.6 40.088235294117645 23.903225806451612
+Best Prec@1: 41.790
+Epoch: [73/200][0/170]	Time 1.077 (1.077)	Data 0.971 (0.971)	Loss 6.7901 (6.7901)
+Test: [0/157]	Time 0.226 (0.226)	Prec@1 53.125 (53.125)	Prec@5 75.000 (75.000)
+08/29 12:29:11 AM EPOCH: 73 val Results: Prec@1 42.690 Prec@5 72.440
+many avg, med avg, few avg 56.657142857142865 43.20588235294117 26.35483870967742
+Best Prec@1: 42.690
+Epoch: [74/200][0/170]	Time 0.857 (0.857)	Data 0.753 (0.753)	Loss 5.9505 (5.9505)
+Test: [0/157]	Time 0.242 (0.242)	Prec@1 43.750 (43.750)	Prec@5 75.000 (75.000)
+08/29 12:29:42 AM EPOCH: 74 val Results: Prec@1 41.400 Prec@5 73.680
+many avg, med avg, few avg 53.142857142857146 40.94117647058823 28.645161290322577
+Best Prec@1: 42.690
+Epoch: [75/200][0/170]	Time 0.871 (0.871)	Data 0.764 (0.764)	Loss 7.1913 (7.1913)
+Test: [0/157]	Time 0.229 (0.229)	Prec@1 45.312 (45.312)	Prec@5 73.438 (73.438)
+08/29 12:30:13 AM EPOCH: 75 val Results: Prec@1 40.250 Prec@5 72.490
+many avg, med avg, few avg 53.25714285714286 40.529411764705884 25.25806451612903
+Best Prec@1: 42.690
+Epoch: [76/200][0/170]	Time 0.822 (0.822)	Data 0.716 (0.716)	Loss 6.6760 (6.6760)
+Test: [0/157]	Time 0.240 (0.240)	Prec@1 46.875 (46.875)	Prec@5 75.000 (75.000)
+08/29 12:30:44 AM EPOCH: 76 val Results: Prec@1 42.670 Prec@5 74.300
+many avg, med avg, few avg 54.65714285714286 40.94117647058823 31.032258064516125
+Best Prec@1: 42.690
+Epoch: [77/200][0/170]	Time 0.908 (0.908)	Data 0.800 (0.800)	Loss 6.0315 (6.0315)
+Test: [0/157]	Time 0.230 (0.230)	Prec@1 50.000 (50.000)	Prec@5 71.875 (71.875)
+08/29 12:31:15 AM EPOCH: 77 val Results: Prec@1 41.870 Prec@5 73.130
+many avg, med avg, few avg 52.88571428571427 43.29411764705884 27.87096774193548
+Best Prec@1: 42.690
+Epoch: [78/200][0/170]	Time 0.814 (0.814)	Data 0.710 (0.710)	Loss 6.2104 (6.2104)
+Test: [0/157]	Time 0.229 (0.229)	Prec@1 46.875 (46.875)	Prec@5 76.562 (76.562)
+08/29 12:31:46 AM EPOCH: 78 val Results: Prec@1 42.750 Prec@5 74.470
+many avg, med avg, few avg 57.742857142857126 41.85294117647058 26.806451612903224
+Best Prec@1: 42.750
+Epoch: [79/200][0/170]	Time 0.906 (0.906)	Data 0.800 (0.800)	Loss 7.9207 (7.9207)
+Test: [0/157]	Time 0.234 (0.234)	Prec@1 59.375 (59.375)	Prec@5 78.125 (78.125)
+08/29 12:32:17 AM EPOCH: 79 val Results: Prec@1 42.880 Prec@5 73.110
+many avg, med avg, few avg 53.457142857142856 41.67647058823529 32.25806451612903
+Best Prec@1: 42.880
+Epoch: [80/200][0/170]	Time 0.896 (0.896)	Data 0.790 (0.790)	Loss 6.0004 (6.0004)
+Test: [0/157]	Time 0.234 (0.234)	Prec@1 45.312 (45.312)	Prec@5 67.188 (67.188)
+08/29 12:32:49 AM EPOCH: 80 val Results: Prec@1 42.130 Prec@5 73.820
+many avg, med avg, few avg 54.142857142857146 41.23529411764705 29.548387096774192
+Best Prec@1: 42.880
+Epoch: [81/200][0/170]	Time 0.896 (0.896)	Data 0.788 (0.788)	Loss 6.2591 (6.2591)
+Test: [0/157]	Time 0.252 (0.252)	Prec@1 54.688 (54.688)	Prec@5 70.312 (70.312)
+08/29 12:33:20 AM EPOCH: 81 val Results: Prec@1 43.120 Prec@5 73.750
+many avg, med avg, few avg 57.17142857142858 42.64705882352941 27.7741935483871
+Best Prec@1: 43.120
+Epoch: [82/200][0/170]	Time 0.834 (0.834)	Data 0.728 (0.728)	Loss 5.7832 (5.7832)
+Test: [0/157]	Time 0.233 (0.233)	Prec@1 54.688 (54.688)	Prec@5 78.125 (78.125)
+08/29 12:33:51 AM EPOCH: 82 val Results: Prec@1 44.290 Prec@5 75.350
+many avg, med avg, few avg 58.37142857142859 42.85294117647059 29.967741935483875
+Best Prec@1: 44.290
+Epoch: [83/200][0/170]	Time 0.996 (0.996)	Data 0.891 (0.891)	Loss 5.1094 (5.1094)
+Test: [0/157]	Time 0.231 (0.231)	Prec@1 53.125 (53.125)	Prec@5 73.438 (73.438)
+08/29 12:34:22 AM EPOCH: 83 val Results: Prec@1 42.560 Prec@5 73.860
+many avg, med avg, few avg 56.57142857142856 43.029411764705884 26.2258064516129
+Best Prec@1: 44.290
+Epoch: [84/200][0/170]	Time 0.880 (0.880)	Data 0.775 (0.775)	Loss 5.1041 (5.1041)
+Test: [0/157]	Time 0.253 (0.253)	Prec@1 50.000 (50.000)	Prec@5 75.000 (75.000)
+08/29 12:34:54 AM EPOCH: 84 val Results: Prec@1 44.250 Prec@5 74.120
+many avg, med avg, few avg 56.82857142857144 46.85294117647057 27.193548387096776
+Best Prec@1: 44.290
+Epoch: [85/200][0/170]	Time 0.889 (0.889)	Data 0.785 (0.785)	Loss 5.2801 (5.2801)
+Test: [0/157]	Time 0.229 (0.229)	Prec@1 46.875 (46.875)	Prec@5 71.875 (71.875)
+08/29 12:35:25 AM EPOCH: 85 val Results: Prec@1 41.080 Prec@5 72.240
+many avg, med avg, few avg 52.11428571428571 39.882352941176464 29.935483870967747
+Best Prec@1: 44.290
+Epoch: [86/200][0/170]	Time 0.823 (0.823)	Data 0.715 (0.715)	Loss 5.8809 (5.8809)
+Test: [0/157]	Time 0.236 (0.236)	Prec@1 46.875 (46.875)	Prec@5 75.000 (75.000)
+08/29 12:35:55 AM EPOCH: 86 val Results: Prec@1 43.910 Prec@5 76.110
+many avg, med avg, few avg 54.371428571428574 43.76470588235294 32.258064516129025
+Best Prec@1: 44.290
+Epoch: [87/200][0/170]	Time 0.845 (0.845)	Data 0.738 (0.738)	Loss 5.3697 (5.3697)
+Test: [0/157]	Time 0.230 (0.230)	Prec@1 50.000 (50.000)	Prec@5 70.312 (70.312)
+08/29 12:36:27 AM EPOCH: 87 val Results: Prec@1 44.910 Prec@5 76.230
+many avg, med avg, few avg 54.4857142857143 45.73529411764705 33.19354838709677
+Best Prec@1: 44.910
+Epoch: [88/200][0/170]	Time 0.794 (0.794)	Data 0.690 (0.690)	Loss 4.6598 (4.6598)
+Test: [0/157]	Time 0.234 (0.234)	Prec@1 51.562 (51.562)	Prec@5 71.875 (71.875)
+08/29 12:36:58 AM EPOCH: 88 val Results: Prec@1 44.980 Prec@5 76.500
+many avg, med avg, few avg 56.77142857142857 43.85294117647059 32.903225806451616
+Best Prec@1: 44.980
+Epoch: [89/200][0/170]	Time 0.903 (0.903)	Data 0.797 (0.797)	Loss 5.5781 (5.5781)
+Test: [0/157]	Time 0.230 (0.230)	Prec@1 46.875 (46.875)	Prec@5 73.438 (73.438)
+08/29 12:37:29 AM EPOCH: 89 val Results: Prec@1 44.430 Prec@5 75.530
+many avg, med avg, few avg 57.828571428571415 42.676470588235304 31.225806451612897
+Best Prec@1: 44.980
+Epoch: [90/200][0/170]	Time 0.821 (0.821)	Data 0.715 (0.715)	Loss 5.5630 (5.5630)
+Test: [0/157]	Time 0.250 (0.250)	Prec@1 51.562 (51.562)	Prec@5 70.312 (70.312)
+08/29 12:38:00 AM EPOCH: 90 val Results: Prec@1 42.550 Prec@5 73.490
+many avg, med avg, few avg 55.48571428571428 45.3529411764706 24.870967741935488
+Best Prec@1: 44.980
+Epoch: [91/200][0/170]	Time 0.909 (0.909)	Data 0.804 (0.804)	Loss 6.0172 (6.0172)
+Test: [0/157]	Time 0.231 (0.231)	Prec@1 56.250 (56.250)	Prec@5 75.000 (75.000)
+08/29 12:38:31 AM EPOCH: 91 val Results: Prec@1 44.210 Prec@5 73.600
+many avg, med avg, few avg 52.77142857142858 48.08823529411765 30.290322580645157
+Best Prec@1: 44.980
+Epoch: [92/200][0/170]	Time 0.885 (0.885)	Data 0.779 (0.779)	Loss 5.7076 (5.7076)
+Test: [0/157]	Time 0.254 (0.254)	Prec@1 48.438 (48.438)	Prec@5 68.750 (68.750)
+08/29 12:39:02 AM EPOCH: 92 val Results: Prec@1 45.460 Prec@5 76.620
+many avg, med avg, few avg 57.4 46.29411764705882 31.064516129032253
+Best Prec@1: 45.460
+Epoch: [93/200][0/170]	Time 0.928 (0.928)	Data 0.822 (0.822)	Loss 5.2924 (5.2924)
+Test: [0/157]	Time 0.258 (0.258)	Prec@1 45.312 (45.312)	Prec@5 76.562 (76.562)
+08/29 12:39:33 AM EPOCH: 93 val Results: Prec@1 46.900 Prec@5 77.190
+many avg, med avg, few avg 60.65714285714287 46.97058823529412 31.290322580645167
+Best Prec@1: 46.900

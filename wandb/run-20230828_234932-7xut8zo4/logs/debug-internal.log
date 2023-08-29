@@ -1,0 +1,203 @@
+2023-08-28 23:49:32,536 INFO    StreamThr :4130742 [internal.py:wandb_internal():89] W&B internal server running at pid: 4130742, started at: 2023-08-28 23:49:32.535675
+2023-08-28 23:49:32,539 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: status
+2023-08-28 23:49:32,541 INFO    WriterThread:4130742 [datastore.py:open_for_write():85] open: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/run-7xut8zo4.wandb
+2023-08-28 23:49:32,545 DEBUG   SenderThread:4130742 [sender.py:send():369] send: header
+2023-08-28 23:49:32,553 DEBUG   SenderThread:4130742 [sender.py:send():369] send: run
+2023-08-28 23:49:33,111 INFO    SenderThread:4130742 [dir_watcher.py:__init__():211] watching files in: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files
+2023-08-28 23:49:33,111 INFO    SenderThread:4130742 [sender.py:_start_run_threads():1103] run started: 7xut8zo4 with start time 1693266572.530043
+2023-08-28 23:49:33,114 DEBUG   SenderThread:4130742 [sender.py:send_request():396] send_request: summary_record
+2023-08-28 23:49:33,114 INFO    SenderThread:4130742 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-28 23:49:33,124 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: check_version
+2023-08-28 23:49:33,125 DEBUG   SenderThread:4130742 [sender.py:send_request():396] send_request: check_version
+2023-08-28 23:49:33,187 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: run_start
+2023-08-28 23:49:33,204 DEBUG   HandlerThread:4130742 [system_info.py:__init__():31] System info init
+2023-08-28 23:49:33,204 DEBUG   HandlerThread:4130742 [system_info.py:__init__():46] System info init done
+2023-08-28 23:49:33,204 INFO    HandlerThread:4130742 [system_monitor.py:start():181] Starting system monitor
+2023-08-28 23:49:33,204 INFO    SystemMonitor:4130742 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-28 23:49:33,204 INFO    HandlerThread:4130742 [system_monitor.py:probe():201] Collecting system info
+2023-08-28 23:49:33,205 INFO    SystemMonitor:4130742 [interfaces.py:start():190] Started cpu monitoring
+2023-08-28 23:49:33,206 INFO    SystemMonitor:4130742 [interfaces.py:start():190] Started disk monitoring
+2023-08-28 23:49:33,208 INFO    SystemMonitor:4130742 [interfaces.py:start():190] Started gpu monitoring
+2023-08-28 23:49:33,209 INFO    SystemMonitor:4130742 [interfaces.py:start():190] Started memory monitoring
+2023-08-28 23:49:33,211 INFO    SystemMonitor:4130742 [interfaces.py:start():190] Started network monitoring
+2023-08-28 23:49:33,234 DEBUG   HandlerThread:4130742 [system_info.py:probe():195] Probing system
+2023-08-28 23:49:33,249 DEBUG   HandlerThread:4130742 [system_info.py:_probe_git():180] Probing git
+2023-08-28 23:49:33,273 DEBUG   HandlerThread:4130742 [system_info.py:_probe_git():188] Probing git done
+2023-08-28 23:49:33,273 DEBUG   HandlerThread:4130742 [system_info.py:probe():240] Probing system done
+2023-08-28 23:49:33,273 DEBUG   HandlerThread:4130742 [system_monitor.py:probe():210] {'os': 'Linux-5.4.0-153-generic-x86_64-with-debian-bullseye-sid', 'python': '3.7.16', 'heartbeatAt': '2023-08-28T23:49:33.235082', 'startedAt': '2023-08-28T23:49:32.518919', 'docker': None, 'cuda': None, 'args': ('--dataset', 'cifar100', '--num_classes', '100', '--arch', 'resnet_proto', '--nf', '64', '--weight_sample', 'True', '--method', 'proto', '--fix', 'True', '--loss', 'logit', '--mixed', 'both_bal', '--use_proto', 'True', '--project', 'True', '--weight_decay', '5e-3', '--lr', '0.01'), 'state': 'running', 'program': 'main.py', 'codePath': 'main.py', 'git': {'remote': 'https://github.com/chang0517/proto-learning.git', 'commit': 'bde552485aa5244fd1fc2d4dddbcbf467604b77b'}, 'email': 'chang0517@naver.com', 'root': '/home/minee/GLMC-2023', 'host': 'iislab1', 'username': 'minee', 'executable': '/home/minee/.conda/envs/kd/bin/python', 'cpu_count': 20, 'cpu_count_logical': 40, 'cpu_freq': {'current': 1308.3501999999999, 'min': 1000.0, 'max': 3200.0}, 'cpu_freq_per_core': [{'current': 2199.999, 'min': 1000.0, 'max': 3200.0}, {'current': 1070.848, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.394, 'min': 1000.0, 'max': 3200.0}, {'current': 1057.032, 'min': 1000.0, 'max': 3200.0}, {'current': 1378.015, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.403, 'min': 1000.0, 'max': 3200.0}, {'current': 1394.663, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.546, 'min': 1000.0, 'max': 3200.0}, {'current': 1088.317, 'min': 1000.0, 'max': 3200.0}, {'current': 1792.286, 'min': 1000.0, 'max': 3200.0}, {'current': 1038.175, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.334, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.36, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.043, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.347, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.145, 'min': 1000.0, 'max': 3200.0}, {'current': 1999.69, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.463, 'min': 1000.0, 'max': 3200.0}, {'current': 1094.093, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.653, 'min': 1000.0, 'max': 3200.0}, {'current': 2201.918, 'min': 1000.0, 'max': 3200.0}, {'current': 1042.661, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.123, 'min': 1000.0, 'max': 3200.0}, {'current': 1044.488, 'min': 1000.0, 'max': 3200.0}, {'current': 1145.423, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.407, 'min': 1000.0, 'max': 3200.0}, {'current': 1200.899, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.545, 'min': 1000.0, 'max': 3200.0}, {'current': 1052.819, 'min': 1000.0, 'max': 3200.0}, {'current': 1613.704, 'min': 1000.0, 'max': 3200.0}, {'current': 1051.487, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.629, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.008, 'min': 1000.0, 'max': 3200.0}, {'current': 1001.037, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.22, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.483, 'min': 1000.0, 'max': 3200.0}, {'current': 2009.041, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.578, 'min': 1000.0, 'max': 3200.0}, {'current': 1012.696, 'min': 1000.0, 'max': 3200.0}, {'current': 1000.321, 'min': 1000.0, 'max': 3200.0}], 'disk': {'total': 937.3295249938965, 'used': 34.729835510253906}, 'gpu': 'NVIDIA GeForce RTX 2080 Ti', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2080 Ti', 'memory_total': 11811160064}, {'name': 'NVIDIA GeForce RTX 2080 Ti', 'memory_total': 11811160064}, {'name': 'NVIDIA GeForce RTX 2080 Ti', 'memory_total': 11811160064}, {'name': 'NVIDIA GeForce RTX 2080 Ti', 'memory_total': 11811160064}], 'memory': {'total': 125.54352569580078}}
+2023-08-28 23:49:33,274 INFO    HandlerThread:4130742 [system_monitor.py:probe():211] Finished collecting system info
+2023-08-28 23:49:33,274 INFO    HandlerThread:4130742 [system_monitor.py:probe():214] Publishing system info
+2023-08-28 23:49:33,274 DEBUG   HandlerThread:4130742 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-08-28 23:49:33,274 DEBUG   HandlerThread:4130742 [system_info.py:_save_pip():67] Saving pip packages done
+2023-08-28 23:49:33,274 DEBUG   HandlerThread:4130742 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-08-28 23:49:34,116 INFO    Thread-12 :4130742 [dir_watcher.py:_on_file_created():272] file/dir created: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/requirements.txt
+2023-08-28 23:49:34,117 INFO    Thread-12 :4130742 [dir_watcher.py:_on_file_created():272] file/dir created: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/conda-environment.yaml
+2023-08-28 23:49:34,117 INFO    Thread-12 :4130742 [dir_watcher.py:_on_file_created():272] file/dir created: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/wandb-summary.json
+2023-08-28 23:49:35,644 DEBUG   HandlerThread:4130742 [system_info.py:_save_conda():86] Saving conda packages done
+2023-08-28 23:49:35,644 DEBUG   HandlerThread:4130742 [system_info.py:_save_code():89] Saving code
+2023-08-28 23:49:35,661 DEBUG   HandlerThread:4130742 [system_info.py:_save_code():110] Saving code done
+2023-08-28 23:49:35,661 DEBUG   HandlerThread:4130742 [system_info.py:_save_patches():127] Saving git patches
+2023-08-28 23:49:35,730 DEBUG   HandlerThread:4130742 [system_info.py:_save_patches():169] Saving git patches done
+2023-08-28 23:49:35,731 INFO    HandlerThread:4130742 [system_monitor.py:probe():216] Finished publishing system info
+2023-08-28 23:49:35,734 DEBUG   SenderThread:4130742 [sender.py:send():369] send: files
+2023-08-28 23:49:35,734 INFO    SenderThread:4130742 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-08-28 23:49:35,735 INFO    SenderThread:4130742 [sender.py:_save_file():1354] saving file code/main.py with policy now
+2023-08-28 23:49:35,736 INFO    SenderThread:4130742 [sender.py:_save_file():1354] saving file diff.patch with policy now
+2023-08-28 23:49:35,745 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-28 23:49:35,746 DEBUG   SenderThread:4130742 [sender.py:send_request():396] send_request: stop_status
+2023-08-28 23:49:36,078 DEBUG   SenderThread:4130742 [sender.py:send():369] send: telemetry
+2023-08-28 23:49:36,079 DEBUG   SenderThread:4130742 [sender.py:send():369] send: config
+2023-08-28 23:49:36,113 INFO    Thread-12 :4130742 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/conda-environment.yaml
+2023-08-28 23:49:36,114 INFO    Thread-12 :4130742 [dir_watcher.py:_on_file_created():272] file/dir created: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/wandb-metadata.json
+2023-08-28 23:49:36,114 INFO    Thread-12 :4130742 [dir_watcher.py:_on_file_created():272] file/dir created: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/diff.patch
+2023-08-28 23:49:36,114 INFO    Thread-12 :4130742 [dir_watcher.py:_on_file_created():272] file/dir created: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/code/main.py
+2023-08-28 23:49:36,114 INFO    Thread-12 :4130742 [dir_watcher.py:_on_file_created():272] file/dir created: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/output.log
+2023-08-28 23:49:36,115 INFO    Thread-12 :4130742 [dir_watcher.py:_on_file_created():272] file/dir created: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/code
+2023-08-28 23:49:36,477 INFO    wandb-upload_2:4130742 [upload_job.py:push():133] Uploaded file /tmp/tmpvjkejq_mwandb/7570limx-diff.patch
+2023-08-28 23:49:36,497 INFO    wandb-upload_0:4130742 [upload_job.py:push():133] Uploaded file /tmp/tmpvjkejq_mwandb/yg46gncs-wandb-metadata.json
+2023-08-28 23:49:36,519 INFO    wandb-upload_1:4130742 [upload_job.py:push():133] Uploaded file /tmp/tmpvjkejq_mwandb/3kvuscfh-code/main.py
+2023-08-28 23:49:38,081 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 23:49:38,115 INFO    Thread-12 :4130742 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/output.log
+2023-08-28 23:49:40,116 INFO    Thread-12 :4130742 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/output.log
+2023-08-28 23:49:41,591 DEBUG   SenderThread:4130742 [sender.py:send():369] send: exit
+2023-08-28 23:49:41,591 INFO    SenderThread:4130742 [sender.py:send_exit():574] handling exit code: 1
+2023-08-28 23:49:41,591 INFO    SenderThread:4130742 [sender.py:send_exit():576] handling runtime: 8
+2023-08-28 23:49:41,592 INFO    SenderThread:4130742 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-28 23:49:41,592 INFO    SenderThread:4130742 [sender.py:send_exit():582] send defer
+2023-08-28 23:49:41,593 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 23:49:41,593 INFO    HandlerThread:4130742 [handler.py:handle_request_defer():170] handle defer: 0
+2023-08-28 23:49:41,593 DEBUG   SenderThread:4130742 [sender.py:send_request():396] send_request: defer
+2023-08-28 23:49:41,594 INFO    SenderThread:4130742 [sender.py:send_request_defer():598] handle sender defer: 0
+2023-08-28 23:49:41,594 INFO    SenderThread:4130742 [sender.py:transition_state():602] send defer: 1
+2023-08-28 23:49:41,594 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 23:49:41,594 INFO    HandlerThread:4130742 [handler.py:handle_request_defer():170] handle defer: 1
+2023-08-28 23:49:41,594 DEBUG   SenderThread:4130742 [sender.py:send_request():396] send_request: defer
+2023-08-28 23:49:41,595 INFO    SenderThread:4130742 [sender.py:send_request_defer():598] handle sender defer: 1
+2023-08-28 23:49:41,595 INFO    SenderThread:4130742 [sender.py:transition_state():602] send defer: 2
+2023-08-28 23:49:41,595 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 23:49:41,595 INFO    HandlerThread:4130742 [handler.py:handle_request_defer():170] handle defer: 2
+2023-08-28 23:49:41,595 INFO    HandlerThread:4130742 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-28 23:49:41,595 INFO    HandlerThread:4130742 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-28 23:49:41,596 DEBUG   SystemMonitor:4130742 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-28 23:49:41,596 INFO    HandlerThread:4130742 [interfaces.py:finish():202] Joined disk monitor
+2023-08-28 23:49:41,596 DEBUG   SystemMonitor:4130742 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-28 23:49:41,597 DEBUG   SystemMonitor:4130742 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-28 23:49:42,078 INFO    HandlerThread:4130742 [interfaces.py:finish():202] Joined gpu monitor
+2023-08-28 23:49:42,079 INFO    HandlerThread:4130742 [interfaces.py:finish():202] Joined memory monitor
+2023-08-28 23:49:42,079 INFO    HandlerThread:4130742 [interfaces.py:finish():202] Joined network monitor
+2023-08-28 23:49:42,080 DEBUG   SenderThread:4130742 [sender.py:send_request():396] send_request: defer
+2023-08-28 23:49:42,080 INFO    SenderThread:4130742 [sender.py:send_request_defer():598] handle sender defer: 2
+2023-08-28 23:49:42,080 INFO    SenderThread:4130742 [sender.py:transition_state():602] send defer: 3
+2023-08-28 23:49:42,081 DEBUG   SenderThread:4130742 [sender.py:send():369] send: stats
+2023-08-28 23:49:42,081 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 23:49:42,082 INFO    HandlerThread:4130742 [handler.py:handle_request_defer():170] handle defer: 3
+2023-08-28 23:49:42,082 DEBUG   SenderThread:4130742 [sender.py:send_request():396] send_request: defer
+2023-08-28 23:49:42,083 INFO    SenderThread:4130742 [sender.py:send_request_defer():598] handle sender defer: 3
+2023-08-28 23:49:42,083 INFO    SenderThread:4130742 [sender.py:transition_state():602] send defer: 4
+2023-08-28 23:49:42,083 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 23:49:42,083 INFO    HandlerThread:4130742 [handler.py:handle_request_defer():170] handle defer: 4
+2023-08-28 23:49:42,083 DEBUG   SenderThread:4130742 [sender.py:send_request():396] send_request: defer
+2023-08-28 23:49:42,084 INFO    SenderThread:4130742 [sender.py:send_request_defer():598] handle sender defer: 4
+2023-08-28 23:49:42,084 INFO    SenderThread:4130742 [sender.py:transition_state():602] send defer: 5
+2023-08-28 23:49:42,084 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 23:49:42,084 INFO    HandlerThread:4130742 [handler.py:handle_request_defer():170] handle defer: 5
+2023-08-28 23:49:42,085 DEBUG   SenderThread:4130742 [sender.py:send():369] send: summary
+2023-08-28 23:49:42,085 INFO    SenderThread:4130742 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-28 23:49:42,086 DEBUG   SenderThread:4130742 [sender.py:send_request():396] send_request: defer
+2023-08-28 23:49:42,086 INFO    SenderThread:4130742 [sender.py:send_request_defer():598] handle sender defer: 5
+2023-08-28 23:49:42,086 INFO    SenderThread:4130742 [sender.py:transition_state():602] send defer: 6
+2023-08-28 23:49:42,086 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 23:49:42,087 INFO    HandlerThread:4130742 [handler.py:handle_request_defer():170] handle defer: 6
+2023-08-28 23:49:42,087 DEBUG   SenderThread:4130742 [sender.py:send_request():396] send_request: defer
+2023-08-28 23:49:42,087 INFO    SenderThread:4130742 [sender.py:send_request_defer():598] handle sender defer: 6
+2023-08-28 23:49:42,093 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 23:49:42,118 INFO    Thread-12 :4130742 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/output.log
+2023-08-28 23:49:42,118 INFO    Thread-12 :4130742 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/wandb-summary.json
+2023-08-28 23:49:42,413 INFO    SenderThread:4130742 [sender.py:transition_state():602] send defer: 7
+2023-08-28 23:49:42,413 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 23:49:42,413 INFO    HandlerThread:4130742 [handler.py:handle_request_defer():170] handle defer: 7
+2023-08-28 23:49:42,414 DEBUG   SenderThread:4130742 [sender.py:send_request():396] send_request: defer
+2023-08-28 23:49:42,414 INFO    SenderThread:4130742 [sender.py:send_request_defer():598] handle sender defer: 7
+2023-08-28 23:49:42,591 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: poll_exit
+2023-08-28 23:49:43,119 INFO    Thread-12 :4130742 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/config.yaml
+2023-08-28 23:49:44,119 INFO    Thread-12 :4130742 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/output.log
+2023-08-28 23:49:45,598 INFO    SenderThread:4130742 [sender.py:transition_state():602] send defer: 8
+2023-08-28 23:49:45,600 DEBUG   SenderThread:4130742 [sender.py:send_request():396] send_request: poll_exit
+2023-08-28 23:49:45,600 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 23:49:45,601 INFO    HandlerThread:4130742 [handler.py:handle_request_defer():170] handle defer: 8
+2023-08-28 23:49:45,602 DEBUG   SenderThread:4130742 [sender.py:send_request():396] send_request: defer
+2023-08-28 23:49:45,602 INFO    SenderThread:4130742 [sender.py:send_request_defer():598] handle sender defer: 8
+2023-08-28 23:49:45,602 INFO    SenderThread:4130742 [job_builder.py:build():240] Attempting to build job artifact
+2023-08-28 23:49:45,603 INFO    SenderThread:4130742 [job_builder.py:build():264] is repo sourced job
+2023-08-28 23:49:45,608 INFO    SenderThread:4130742 [job_builder.py:build():305] adding wandb-job metadata file
+2023-08-28 23:49:45,615 INFO    SenderThread:4130742 [sender.py:transition_state():602] send defer: 9
+2023-08-28 23:49:45,616 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 23:49:45,616 DEBUG   SenderThread:4130742 [sender.py:send():369] send: artifact
+2023-08-28 23:49:45,616 INFO    HandlerThread:4130742 [handler.py:handle_request_defer():170] handle defer: 9
+2023-08-28 23:49:46,121 INFO    Thread-12 :4130742 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/output.log
+2023-08-28 23:49:47,129 INFO    wandb-upload_4:4130742 [upload_job.py:push():88] Skipped uploading /home/minee/.local/share/wandb/artifacts/staging/tmp_cx_424_
+2023-08-28 23:49:47,130 INFO    wandb-upload_5:4130742 [upload_job.py:push():88] Skipped uploading /home/minee/.local/share/wandb/artifacts/staging/tmplxve5q2n
+2023-08-28 23:49:47,555 INFO    wandb-upload_2:4130742 [upload_job.py:push():91] Uploaded file /home/minee/.local/share/wandb/artifacts/staging/tmpjlhrru5q
+2023-08-28 23:49:47,598 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-28 23:49:49,064 INFO    SenderThread:4130742 [sender.py:send_artifact():1450] sent artifact job-https___github.com_chang0517_proto-learning.git_main.py - {'id': 'QXJ0aWZhY3Q6NTU0MDAxODUy', 'digest': 'dc17ce4ac9c91750223459d532b4efe0', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjkzMzYxMjg4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTU0MDAxMTc5', 'versionIndex': 2}}, 'version': 'latest'}
+2023-08-28 23:49:49,065 DEBUG   SenderThread:4130742 [sender.py:send_request():396] send_request: defer
+2023-08-28 23:49:49,065 INFO    SenderThread:4130742 [sender.py:send_request_defer():598] handle sender defer: 9
+2023-08-28 23:49:49,065 INFO    SenderThread:4130742 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-08-28 23:49:49,123 INFO    SenderThread:4130742 [dir_watcher.py:finish():389] scan: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files
+2023-08-28 23:49:49,123 INFO    SenderThread:4130742 [dir_watcher.py:finish():403] scan save: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/wandb-summary.json wandb-summary.json
+2023-08-28 23:49:49,124 INFO    SenderThread:4130742 [dir_watcher.py:finish():403] scan save: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/config.yaml config.yaml
+2023-08-28 23:49:49,124 INFO    SenderThread:4130742 [dir_watcher.py:finish():403] scan save: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/wandb-metadata.json wandb-metadata.json
+2023-08-28 23:49:49,131 INFO    SenderThread:4130742 [dir_watcher.py:finish():403] scan save: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/diff.patch diff.patch
+2023-08-28 23:49:49,131 INFO    SenderThread:4130742 [dir_watcher.py:finish():403] scan save: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/output.log output.log
+2023-08-28 23:49:49,137 INFO    SenderThread:4130742 [dir_watcher.py:finish():403] scan save: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/requirements.txt requirements.txt
+2023-08-28 23:49:49,145 INFO    SenderThread:4130742 [dir_watcher.py:finish():403] scan save: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/conda-environment.yaml conda-environment.yaml
+2023-08-28 23:49:49,162 INFO    SenderThread:4130742 [dir_watcher.py:finish():403] scan save: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/code/main.py code/main.py
+2023-08-28 23:49:49,163 INFO    SenderThread:4130742 [sender.py:transition_state():602] send defer: 10
+2023-08-28 23:49:49,164 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 23:49:49,164 INFO    HandlerThread:4130742 [handler.py:handle_request_defer():170] handle defer: 10
+2023-08-28 23:49:49,165 DEBUG   SenderThread:4130742 [sender.py:send_request():396] send_request: defer
+2023-08-28 23:49:49,165 INFO    SenderThread:4130742 [sender.py:send_request_defer():598] handle sender defer: 10
+2023-08-28 23:49:49,165 INFO    SenderThread:4130742 [file_pusher.py:finish():159] shutting down file pusher
+2023-08-28 23:49:49,732 INFO    wandb-upload_5:4130742 [upload_job.py:push():133] Uploaded file /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/requirements.txt
+2023-08-28 23:49:49,744 INFO    wandb-upload_7:4130742 [upload_job.py:push():133] Uploaded file /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/config.yaml
+2023-08-28 23:49:49,750 INFO    wandb-upload_0:4130742 [upload_job.py:push():133] Uploaded file /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/output.log
+2023-08-28 23:49:49,862 INFO    wandb-upload_6:4130742 [upload_job.py:push():133] Uploaded file /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/wandb-summary.json
+2023-08-28 23:49:49,900 INFO    wandb-upload_3:4130742 [upload_job.py:push():133] Uploaded file /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/files/conda-environment.yaml
+2023-08-28 23:49:50,100 INFO    Thread-11 :4130742 [sender.py:transition_state():602] send defer: 11
+2023-08-28 23:49:50,101 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 23:49:50,101 INFO    HandlerThread:4130742 [handler.py:handle_request_defer():170] handle defer: 11
+2023-08-28 23:49:50,102 DEBUG   SenderThread:4130742 [sender.py:send_request():396] send_request: defer
+2023-08-28 23:49:50,103 INFO    SenderThread:4130742 [sender.py:send_request_defer():598] handle sender defer: 11
+2023-08-28 23:49:50,103 INFO    SenderThread:4130742 [file_pusher.py:join():164] waiting for file pusher
+2023-08-28 23:49:50,103 INFO    SenderThread:4130742 [sender.py:transition_state():602] send defer: 12
+2023-08-28 23:49:50,103 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 23:49:50,104 INFO    HandlerThread:4130742 [handler.py:handle_request_defer():170] handle defer: 12
+2023-08-28 23:49:50,104 DEBUG   SenderThread:4130742 [sender.py:send_request():396] send_request: defer
+2023-08-28 23:49:50,104 INFO    SenderThread:4130742 [sender.py:send_request_defer():598] handle sender defer: 12
+2023-08-28 23:49:50,327 INFO    SenderThread:4130742 [sender.py:transition_state():602] send defer: 13
+2023-08-28 23:49:50,328 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 23:49:50,328 INFO    HandlerThread:4130742 [handler.py:handle_request_defer():170] handle defer: 13
+2023-08-28 23:49:50,329 DEBUG   SenderThread:4130742 [sender.py:send_request():396] send_request: defer
+2023-08-28 23:49:50,329 INFO    SenderThread:4130742 [sender.py:send_request_defer():598] handle sender defer: 13
+2023-08-28 23:49:50,330 INFO    SenderThread:4130742 [sender.py:transition_state():602] send defer: 14
+2023-08-28 23:49:50,331 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 23:49:50,331 INFO    HandlerThread:4130742 [handler.py:handle_request_defer():170] handle defer: 14
+2023-08-28 23:49:50,331 DEBUG   SenderThread:4130742 [sender.py:send():369] send: final
+2023-08-28 23:49:50,332 DEBUG   SenderThread:4130742 [sender.py:send():369] send: footer
+2023-08-28 23:49:50,332 DEBUG   SenderThread:4130742 [sender.py:send_request():396] send_request: defer
+2023-08-28 23:49:50,332 INFO    SenderThread:4130742 [sender.py:send_request_defer():598] handle sender defer: 14
+2023-08-28 23:49:50,333 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: poll_exit
+2023-08-28 23:49:50,334 DEBUG   SenderThread:4130742 [sender.py:send_request():396] send_request: poll_exit
+2023-08-28 23:49:50,335 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: server_info
+2023-08-28 23:49:50,336 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: get_summary
+2023-08-28 23:49:50,337 DEBUG   SenderThread:4130742 [sender.py:send_request():396] send_request: server_info
+2023-08-28 23:49:50,337 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: sampled_history
+2023-08-28 23:49:50,539 INFO    MainThread:4130742 [wandb_run.py:_footer_history_summary_info():3464] rendering history
+2023-08-28 23:49:50,539 INFO    MainThread:4130742 [wandb_run.py:_footer_history_summary_info():3496] rendering summary
+2023-08-28 23:49:50,539 INFO    MainThread:4130742 [wandb_run.py:_footer_sync_info():3423] logging synced files
+2023-08-28 23:49:50,540 DEBUG   HandlerThread:4130742 [handler.py:handle_request():144] handle_request: shutdown
+2023-08-28 23:49:50,541 INFO    HandlerThread:4130742 [handler.py:finish():854] shutting down handler
+2023-08-28 23:49:51,336 INFO    WriterThread:4130742 [datastore.py:close():298] close: /home/minee/GLMC-2023/wandb/run-20230828_234932-7xut8zo4/run-7xut8zo4.wandb
+2023-08-28 23:49:51,539 INFO    SenderThread:4130742 [sender.py:finish():1526] shutting down sender
+2023-08-28 23:49:51,539 INFO    SenderThread:4130742 [file_pusher.py:finish():159] shutting down file pusher
+2023-08-28 23:49:51,539 INFO    SenderThread:4130742 [file_pusher.py:join():164] waiting for file pusher
