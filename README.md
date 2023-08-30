@@ -15,3 +15,10 @@ python main.py --dataset cifar10 --num_classes 10 --arch resnet_proto --nf 64 --
 | PSCL   | 100   | ResNet-32     | 89.09%    |
 | PSCL   | 50    | ResNet-32     | 91.66%    |
 | PSCL   | 10    | ResNet-32     | 94.53%    |
+
+### CIFAR100-LT
+| Method | IF | Model | Top-1 Acc(%) |
+| :---:| :---:|:---:|:---:|
+| PSCL   | 100   | ResNet-32     | 89.09%    |
+| PSCL   | 50    | ResNet-32     | 91.66%    |
+| PSCL   | 10    | ResNet-32     | 94.53%    |
